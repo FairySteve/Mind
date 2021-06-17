@@ -1,5 +1,6 @@
 # Mind
 Mind 思维
+
 Mind uses CurseForge for the initial module installation, but subsequent updates and magical modifications are performed in the HMCL launcher environment.
 
 Mind is a project created by MengHua_I. The goal of the project is to create a complete integration package of technology + magic automation for magic reform.
