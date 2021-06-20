@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: -5.5d,
+	dependencies: [
+		"767d9a84"
+	],
+	tasks: [{
+		uid: "9b7df9f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4696958616088314637L,
+					AS_Amulet_HolderMost: 5747929481992816096L
+				}
+			},
+			id: "steamworld:manual"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e8dc64c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	dependencies: [
+		"ddcc3bdf"
+	],
+	tasks: [{
+		uid: "4568f1c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "preservationliquid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "46af8a6b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "witheringliquid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "95728968",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

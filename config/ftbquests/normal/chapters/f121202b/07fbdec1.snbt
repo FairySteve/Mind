@@ -1,0 +1,33 @@
+{
+	x: -1.5d,
+	y: -2.5d,
+	dependencies: [
+		"fd0131dc"
+	],
+	tasks: [{
+		uid: "7ddfaaf7",
+		type: "item",
+		items: [{
+			item: "steamworld:upgrade"
+		}]
+	},
+	{
+		uid: "30d9805d",
+		type: "item",
+		items: [{
+			item: "steamworld:upgrade 1 1"
+		}]
+	},
+	{
+		uid: "2c417758",
+		type: "item",
+		items: [{
+			item: "steamworld:upgrade 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "46ee2f44",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

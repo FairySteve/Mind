@@ -1,0 +1,20 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	dependencies: [
+		"33bcb2a5",
+		"4c2817cf"
+	],
+	tasks: [{
+		uid: "fa428ce3",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rock_crusher_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "ecef816a",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

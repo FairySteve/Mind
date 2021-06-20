@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	dependencies: [
+		"c496f3f0",
+		"692be0b1"
+	],
+	tasks: [{
+		uid: "9ecff824",
+		type: "item",
+		items: [{
+			item: "steamworld:assembler_ancite"
+		}]
+	}],
+	rewards: [{
+		uid: "76076724",
+		type: "item",
+		item: "mind:mind"
+	}]
+}
