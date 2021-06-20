@@ -1,0 +1,109 @@
+{
+  "outputs": [
+	{
+      "target": "crystal",
+      "weight": 400,
+      "id": "mind:iron_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 400,
+      "id": "mind:coal_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 250,
+      "id": "mind:redstone_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 250,
+      "id": "mind:glowstone_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:silver_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:lead_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:copper_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:gold_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:aluminum_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:tin_paint_ball"
+    },
+    {
+      "target": "brown",
+      "weight": 300,
+      "id": "mind:resonating_paint_ball"
+    },
+    {
+      "target": "green",
+      "weight": 200,
+      "id": "environmentaltech:litherite_crystal"
+    },
+    {
+      "target": "purple",
+      "weight": 150,
+      "id": "environmentaltech:erodium_crystal"
+    },
+    {
+      "target": "black",
+      "weight": 4,
+      "id": "environmentaltech:lonsdaleite_crystal"
+    },
+	{
+      "target": "crystal",
+      "weight": 120,
+      "id": "mind:emerald_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:nickel_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 80,
+      "id": "mind:platinum_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 100,
+      "id": "mind:iridium_paint_ball"
+    },
+    {
+      "target": "crystal",
+      "weight": 80,
+      "id": "mind:steel_paint_ball"
+    },
+    {
+      "target": "crystal",
+      "weight": 50,
+      "id": "mind:tugsten_paint_ball"
+    },
+    {
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:quartz_paint_ball"
+    }
+  ]
+}

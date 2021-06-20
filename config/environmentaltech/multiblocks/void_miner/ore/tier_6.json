@@ -1,0 +1,184 @@
+{
+  "outputs": [
+    {
+      "target": "green",
+      "weight": 200,
+      "id": "environmentaltech:litherite_crystal"
+    },
+    {
+      "target": "purple",
+      "weight": 150,
+      "id": "environmentaltech:erodium_crystal"
+    },
+    {
+      "target": "magenta",
+      "weight": 120,
+      "id": "environmentaltech:kyronite_crystal"
+    },
+    {
+      "target": "blue",
+      "weight": 90,
+      "id": "environmentaltech:pladium_crystal"
+    },
+    {
+      "target": "light_blue",
+      "weight": 60,
+      "id": "environmentaltech:ionite_crystal"
+    },
+    {
+      "target": "black",
+      "weight": 30,
+      "id": "environmentaltech:aethium_crystal"
+    },
+    {
+      "target": "black",
+      "weight": 24,
+      "id": "environmentaltech:lonsdaleite_crystal"
+    },
+	{
+      "target": "orange",
+      "weight": 184,
+      "id": "thaumcraft:amber"
+    },
+    {
+      "target": "brown",
+      "weight": 177,
+      "id": "mind:resonating_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 400,
+      "id": "mind:iron_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 400,
+      "id": "mind:coal_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 250,
+      "id": "mind:redstone_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 250,
+      "id": "mind:glowstone_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:silver_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:lead_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:copper_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:gold_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:aluminum_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:tin_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 120,
+      "id": "mind:emerald_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:satyr_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:yellorium_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:boron_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:lithium_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:magnesium_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:thorium_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:nickel_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 80,
+      "id": "mind:platinum_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 100,
+      "id": "mind:iridium_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:zinc_paint_ball"
+    },
+	{
+      "target": "crystal",
+      "weight": 150,
+      "id": "mind:draconium_paint_ball"
+    },
+    {
+      "target": "crystal",
+      "weight": 80,
+      "id": "mind:steel_paint_ball"
+    },
+    {
+      "target": "crystal",
+      "weight": 50,
+      "id": "mind:tugsten_paint_ball"
+    },
+    {
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:quartz_paint_ball"
+    },
+    {
+      "target": "crystal",
+      "weight": 200,
+      "id": "mind:lapis_paint_ball"
+    },
+    {
+      "target": "crystal",
+      "weight": 120,
+      "id": "mind:osmium_paint_ball"
+    }
+  ]
+}
