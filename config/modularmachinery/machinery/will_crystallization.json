@@ -1,0 +1,256 @@
+{
+	"registryname":"will_crystallization",
+	"localizedname":"意志结晶机",
+	"color":"48D1CC",
+	"requires-blueprint":false,
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus@6",
+				"modularmachinery:blockinputbus@5",
+				"modularmachinery:blockinputbus@4",
+				"modularmachinery:blockinputbus@3",
+				"modularmachinery:blockinputbus@2",
+				"modularmachinery:blockinputbus@1",
+				"modularmachinery:blockinputbus@0",
+				"modularmachinery:blockoutputbus@6",
+				"modularmachinery:blockoutputbus@5",
+				"modularmachinery:blockoutputbus@4",
+				"modularmachinery:blockoutputbus@3",
+				"modularmachinery:blockoutputbus@2",
+				"modularmachinery:blockoutputbus@1",
+				"modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:soul_forge@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus@6",
+				"modularmachinery:blockinputbus@5",
+				"modularmachinery:blockinputbus@4",
+				"modularmachinery:blockinputbus@3",
+				"modularmachinery:blockinputbus@2",
+				"modularmachinery:blockinputbus@1",
+				"modularmachinery:blockinputbus@0",
+				"modularmachinery:blockoutputbus@6",
+				"modularmachinery:blockoutputbus@5",
+				"modularmachinery:blockoutputbus@4",
+				"modularmachinery:blockoutputbus@3",
+				"modularmachinery:blockoutputbus@2",
+				"modularmachinery:blockoutputbus@1",
+				"modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@7",
+				"modularmachinery:blockfluidinputhatch@6",
+				"modularmachinery:blockfluidinputhatch@5",
+				"modularmachinery:blockfluidinputhatch@4",
+				"modularmachinery:blockfluidinputhatch@3",
+				"modularmachinery:blockfluidinputhatch@2",
+				"modularmachinery:blockfluidinputhatch@1",
+				"modularmachinery:blockfluidinputhatch@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_brick_2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "gugu-utils:sparkmanahatch@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_brick_2@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_brick_2@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "bloodmagic:demon_brick_2@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:demon_brick_2@0"
+            ]
+        }
+    ]}

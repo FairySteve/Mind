@@ -1,0 +1,76 @@
+{
+	"registryname":"le_liquid_manufacturing_machine",
+	"localizedname":"LE液体制造机",
+	"color":"000000",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+				"modularmachinery:blockenergyinputhatch@7",
+				"modularmachinery:blockenergyinputhatch@6",
+				"modularmachinery:blockenergyinputhatch@5",
+				"modularmachinery:blockenergyinputhatch@4",
+				"modularmachinery:blockenergyinputhatch@3",
+				"modularmachinery:blockenergyinputhatch@2",
+				"modularmachinery:blockenergyinputhatch@1",
+				"modularmachinery:blockenergyinputhatch@0",
+				"modularmachinery:blockfluidoutputhatch@7",
+				"modularmachinery:blockfluidoutputhatch@6",
+				"modularmachinery:blockfluidoutputhatch@5",
+				"modularmachinery:blockfluidoutputhatch@4",
+				"modularmachinery:blockfluidoutputhatch@3",
+				"modularmachinery:blockfluidoutputhatch@2",
+				"modularmachinery:blockfluidoutputhatch@1",
+				"modularmachinery:blockfluidoutputhatch@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "lightningcraft:lightning_cell@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+				"modularmachinery:blockenergyinputhatch@7",
+				"modularmachinery:blockenergyinputhatch@6",
+				"modularmachinery:blockenergyinputhatch@5",
+				"modularmachinery:blockenergyinputhatch@4",
+				"modularmachinery:blockenergyinputhatch@3",
+				"modularmachinery:blockenergyinputhatch@2",
+				"modularmachinery:blockenergyinputhatch@1",
+				"modularmachinery:blockenergyinputhatch@0",
+				"modularmachinery:blockfluidoutputhatch@7",
+				"modularmachinery:blockfluidoutputhatch@6",
+				"modularmachinery:blockfluidoutputhatch@5",
+				"modularmachinery:blockfluidoutputhatch@4",
+				"modularmachinery:blockfluidoutputhatch@3",
+				"modularmachinery:blockfluidoutputhatch@2",
+				"modularmachinery:blockfluidoutputhatch@1",
+				"modularmachinery:blockfluidoutputhatch@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "lightningcraft:lightning_infuser@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "lightningcraft:air_terminal@9"
+            ]
+        }
+    ]}
