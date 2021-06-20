@@ -1,0 +1,15 @@
+tile.contenttweaker.mind_heatsand.name=灼沙
+
+fluid.mind_dissipation=溶解试剂
+fluid.mind_crystal=结晶试剂
+fluid.mind_blend_caminite=方镁钒混合物
+fluid.mind_gallium_solution=含镓溶液
+fluid.mind_gallium_amalgam=镓汞齐
+fluid.mind_pure_sodium_gallinate_solution=净镓酸钠液
+fluid.mind_fuild_zinc=熔融锌
+fluid.mind_draconium=熔融龙
+fluid.mind_le=液体LE
+machine.crafttweaker:plastic_processing=塑料加工机
+machine.crafttweaker:plastic_solidification=塑料凝固机
+machine.crafttweaker:diamond_purifier=钻石提纯机
+machine.crafttweaker:melter=熔炼炉

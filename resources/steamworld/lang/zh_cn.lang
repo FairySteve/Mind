@@ -1,0 +1,528 @@
+#PARSE_ESCAPES
+
+######################
+# Creative Tab Names #
+######################
+itemGroup.steamworld_items=蒸汽世界-物品
+itemGroup.steamworld_utility=蒸汽世界-机器与工具
+itemGroup.steamworld_blocks=蒸汽世界-方块
+
+###############
+# Block Names #
+###############
+
+# Legacy Blocks
+tile.steamworld.ore_steaite.name=硬铁矿(远古)
+tile.steamworld.block_steaite.name=硬铁块(远古)
+
+# Ancite Blocks (and also metal blocks)
+tile.steamworld.block_ancite_brick.name=安科特砖块
+tile.steamworld.block_ancite_floor.name=安科特地板
+tile.steamworld.block_ancite_plate.name=安科特板材
+tile.steamworld.block_ancite_block.name=安科特方块
+tile.steamworld.block_ancite_bigbricks.name=大块安科特砖块
+tile.steamworld.block_ancite_steaite_block.name=硬铁块
+tile.steamworld.block_ancite_galite_block.name=伽利特块
+tile.steamworld.block_ancite_territe_block.name=特瑞特宝石块
+tile.steamworld.block_ancite_essen_block.name=埃森块
+tile.steamworld.block_ancite_corite_block.name=柯瑞特块
+tile.steamworld.block_ancite_error.name=一个未来或许会添加进来的方块
+
+# Decorative Block
+tile.steamworld.block_decorative_block_endritch.name=末影碎片块
+tile.steamworld.block_decorative_block_preservation_cobble.name=装饰性圆石
+tile.steamworld.block_decorative_sky_stone.name=天空石
+tile.steamworld.block_decorative_sky_cobble.name=天空圆石
+tile.steamworld.block_decorative_sky_bricks.name=天空石砖
+tile.steamworld.block_decorative_block_withering_cobble.name=凋零圆石
+tile.steamworld.block_decorative_sky_chiseled_stone.name=镂空天空石砖
+tile.steamworld.block_decorative_sky_pillar.name=天空石柱
+tile.steamworld.block_decorative_corite_bricks.name=科瑞特砖
+tile.steamworld.block_decorative_corite_tiles.name=科瑞特瓷砖
+tile.steamworld.block_decorative_error.name=一个未来或许会添加进来的方块
+
+# Crystal Block
+tile.steamworld.block_crystal_gravity.name=重晶石水晶
+tile.steamworld.block_crystal_core.name=伊格尼索尔水晶
+tile.steamworld.block_crystal_star.name=荧光石水晶
+
+# Plants
+tile.steamworld.block_flower_wither.name=枯草
+
+# Ores
+tile.steamworld.ore_steaite_ow.name=硬铁矿
+tile.steamworld.ore_steaite_sky.name=天空硬铁矿
+tile.steamworld.ore_coal_sky.name=天空煤矿
+tile.steamworld.ore_iron_sky.name=天空铁矿
+tile.steamworld.ore_gold_sky.name=天空金矿
+tile.steamworld.ore_diamond_sky.name=天空钻石矿
+tile.steamworld.ore_ancite_sky.name=天空安科特锭
+tile.steamworld.ore_galite_sky.name=天空伽利特矿
+tile.steamworld.ore_territe_sky.name=天空特瑞特矿
+tile.steamworld.ore_emerald_crystal.name=天空绿宝石矿
+tile.steamworld.ore_gold_crystal.name=金水晶矿
+tile.steamworld.ore_redstone_crystal.name=红石水晶矿
+
+# Generators
+tile.steamworld.generator_steaite.name=蒸汽锅炉 MKI
+tile.steamworld.generator_ancite.name=蒸汽锅炉 MKII
+tile.steamworld.generator_endritch.name=蒸汽锅炉 MKIII
+tile.steamworld.generator_steaite_ht.name=蒸汽锅炉 MKIV
+tile.steamworld.generator_nether.name=地狱蒸汽锅炉
+tile.steamworld.generator_electric.name=电力蒸汽锅炉
+
+# Furnace
+tile.steamworld.furnace_steaite.name=蒸汽熔炉 MKI
+tile.steamworld.furnace_ancite.name=蒸汽熔炉 MKII
+tile.steamworld.furnace_endritch.name=蒸汽熔炉 MKIII
+tile.steamworld.furnace_steaite_ht.name=蒸汽熔炉 MKIV
+
+# Grinder
+tile.steamworld.grinder_steaite.name=蒸汽粉碎机 MKI
+tile.steamworld.grinder_ancite.name=蒸汽粉碎机 MKII
+tile.steamworld.grinder_endritch.name=蒸汽粉碎机 MKIII
+tile.steamworld.grinder_steaite_ht.name=蒸汽粉碎机 MKIV
+
+# Fisher
+tile.steamworld.fisher_steaite.name=钓鱼机 MKI
+tile.steamworld.fisher_ancite.name=钓鱼机 MKII
+tile.steamworld.fisher_endritch.name=钓鱼机 MKIII
+tile.steamworld.fisher_steaite_ht.name=钓鱼机 MKIV
+
+# Farmer
+tile.steamworld.farmer_steaite.name=农场 MKI
+tile.steamworld.farmer_ancite.name=农场 MKII
+tile.steamworld.farmer_endritch.name=农场 MKIII
+tile.steamworld.farmer_steaite_ht.name=农场 MKIV
+
+# Lumberjack
+tile.steamworld.lumber_steaite.name=伐木机 MKI
+tile.steamworld.lumber_ancite.name=伐木机 MKII
+tile.steamworld.lumber_endritch.name=伐木机 MKIII
+tile.steamworld.lumber_steaite_ht.name=伐木机 MKIV
+
+# Fertilizer
+tile.steamworld.fertilizer_steaite.name=施肥机 MKI
+tile.steamworld.fertilizer_ancite.name=施肥机 MKII
+tile.steamworld.fertilizer_endritch.name=施肥机 MKIII
+tile.steamworld.fertilizer_steaite_ht.name=施肥机 MKIV
+
+# Assembler
+tile.steamworld.assembler_ancite.name=蒸汽装配机 MKI
+tile.steamworld.assembler_endritch.name=蒸汽装配机 MKII
+tile.steamworld.assembler_ancite_ht.name=蒸汽装配机 MKIII
+
+# Experience Machine
+tile.steamworld.experience_machine_ancite.name=经验生产机 MKI
+tile.steamworld.experience_machine_endritch.name=经验生产机 MKII
+tile.steamworld.experience_machine_ancite_ht.name=经验生产机 MKIII
+
+# Miner
+tile.steamworld.miner_essen.name=末影采矿机 MKI
+
+# Fluid Miner
+tile.steamworld.fluid_miner_essen.name=末影泵 MKI
+
+# Generic Machines
+tile.steamworld.generic_machine_teleporter.name=末影传送器
+tile.steamworld.generic_machine_launcher.name=蒸汽发射器
+tile.steamworld.generic_machine_error.name=一个未来的机械!
+
+# Fluid Controller
+tile.steamworld.block_fluid_controller.name=流体控制器 MKI
+tile.steamworld.block_fluid_controller_endritch.name=流体控制器 MKII
+
+# Misc
+tile.steamworld.block_steaite_gold.name=坚固金框架
+tile.steamworld.lamp_endritch.name=末影灯
+tile.steamworld.nether_accelerator.name=炼狱加速器
+tile.steamworld.block_obilisk.name=安科特墓穴标记方尖碑
+tile.steamworld.block_pipe.name=管道
+tile.steamworld.block_dynamo.name=蒸汽发电机
+tile.steamworld.block_drain.name=流体吸收器
+tile.steamworld.block_faucet.name=流体放置器
+tile.steamworld.portal.name=传送门方块
+tile.steamworld.stairs_sky_bricks.name=天空砖块楼梯
+tile.steamworld.block_portal_frame.name=传送门框架
+tile.steamworld.filter_tank.name=可过滤储罐
+tile.steamworld.altar_regular.name=祭坛
+tile.steamworld.altar_decorative.name=祭坛 (装饰性)
+tile.steamworld.corite_torch.name=科瑞特火把
+
+##############
+# Item Names #
+##############
+
+# Ingots
+item.steamworld.ingot_steaite.name=硬铁锭
+item.steamworld.ingot_steaite.legacy.name=硬铁锭 (远古)
+item.steamworld.ingot_ancite.name=安科特锭
+item.steamworld.ingot_ancite.legacy.name=安科特锭(远古)
+item.steamworld.ingot_endritch.name=末影碎片
+item.steamworld.shard_endritch.legacy.name=末影碎片(远古)
+item.steamworld.ingot_galite.name=伽利特锭
+item.steamworld.ingot_territe.name=特瑞特宝石
+item.steamworld.ingot_essen.name=埃森锭
+
+# Dusts
+item.steamworld.dust_iron.name=铁粉
+item.steamworld.dust_gold.name=金粉
+item.steamworld.dust_steaite.name=硬铁粉
+item.steamworld.dust_ancite.name=安科特粉
+item.steamworld.dust_galite.name=伽利特粉
+item.steamworld.dust_territe.name=特瑞特粉
+item.steamworld.dust_essen.name=埃森粉
+
+# Nuggets
+item.steamworld.nugget_steaite.name=硬铁粒
+item.steamworld.nugget_ancite.name=安科特粒
+item.steamworld.nugget_diamond.name=钻石粒
+item.steamworld.nugget_emerald.name=绿宝石粒
+item.steamworld.nugget_galite.name=伽利特粒
+item.steamworld.nugget_essen.name=埃森粒
+
+# Upgrades
+item.steamworld.upgrade_ancite.name=安科特升级工具
+item.steamworld.upgrade_endritch.name=末影升级工具
+item.steamworld.upgrade_essen.name=埃森升级工具
+
+# Drills
+item.steamworld.gold_drill.name=金钻头
+item.steamworld.wood_drill.name=木钻头
+item.steamworld.stone_drill.name=石钻头
+item.steamworld.iron_drill.name=铁钻头
+item.steamworld.diamond_drill.name=钻石钻头
+item.steamworld.galite_drill.name=伽利特钻头
+
+# Pump Extensions
+item.steamworld.gold_pump.name=金质泵延展
+item.steamworld.wood_pump.name=木质泵延展
+item.steamworld.stone_pump.name=石质泵延展
+item.steamworld.iron_pump.name=铁质泵延展
+item.steamworld.diamond_pump.name=钻石泵延展
+item.steamworld.galite_pump.name=伽利特泵延展
+
+# Manuals
+item.steamworld.manual_steaite.name=蒸汽世界手册 MKI
+item.steamworld.manual_ancite.name=蒸汽世界手册 MKII
+item.steamworld.manual_endritch.name=蒸汽世界手册 MKIII
+item.steamworld.manual_essen.name=蒸汽世界手册 MKIV
+
+# Tools
+item.steamworld.pickaxe_galite.name=伽利特镐
+item.steamworld.axe_galite.name伽利特斧
+item.steamworld.hoe_galite.name=伽利特锄
+item.steamworld.shovel_galite.name=伽利特铲
+item.steamworld.sword_galite.name=伽利特斧
+
+# Misc
+item.steamworld.machine_base.name=机器框架
+item.steamworld.steaite_crystal.name=硬铁水晶
+item.steamworld.territe_crystal.name=特瑞特水晶
+item.steamworld.wrench.name=硬铁扳手
+item.steamworld.treasure.name=宝藏盒
+item.steamworld.galite_jet.name=伽利特喷气宝珠
+item.steamworld.generic_material_plate_essen.name=埃森板
+item.steamworld.generic_material_advanced_machine_parts.name=高级机器部件
+item.steamworld.generic_material_plate_diamond.name=钻石板
+item.steamworld.generic_material_plate_galite.name=伽利特板
+item.steamworld.generic_material_plate_iron.name=铁板
+item.steamworld.generic_material_plate_gold.name=金板
+item.steamworld.generic_material_ender_core.name=末影核心
+item.steamworld.generic_material_biomatter.name=生物质
+item.steamworld.generic_material_poor_coin.name=贫瘠的安科特货币
+item.steamworld.generic_material_rich_coin.name=富有的安科特货币
+item.steamworld.generic_material_leviathan_feather.name=利维坦之羽
+
+### Potion Effect Auto-Generated ###
+# Bad Luck
+potion.effect.minecraft.unluck=厄运药水
+splash_potion.effect.minecraft.unluck=喷溅型厄运药水
+lingering_potion.effect.minecraft.unluck=滞留型厄运药水
+tipped_arrow.effect.minecraft.unluck=厄运之箭
+
+#####################
+# Item Tooltip Text #
+#####################
+
+# Treasure
+item.steamworld.treasure_fish.tooltip=有极小的概率被钓上来.
+item.steamworld.treasure_crypt.tooltip=可以在安科特墓穴里被找到.
+item.steamworld.treasure_end.tooltip=偶尔可以在末地城里面被找到.
+item.steamworld.treasure_bday.tooltip=可以在特定的时间被找到.
+item.steamworld.treasure_wither_lab.tooltip=可以在Wither的实验室找到.
+
+# Misc
+item.steamworld.wrench.tooltip=可以轻松拆除/旋转蒸汽世界模组中的机器.
+item.steamworld.upgrade.tooltip=在一个机器上Shift右键以升级机器.
+item.steamworld.galite_jet.tooltip[0]=可以让你升高额外的高度!
+item.steamworld.galite_jet.tooltip[1]=但不会使你免疫摔落.
+item.steamworld.filter_tank.tooltip[0]=在底部使用装有流体的桶右键来设置过滤.
+item.steamworld.filter_tank.tooltip[1]=如果使用空桶右键可以移除过滤.
+
+################
+# Entity Names #
+################
+entity.steamworld.skyfish.name=飞鱼
+entity.steamworld.anemone.name=海葵
+entity.steamworld.anemone_stinger.name=海葵毒刺
+entity.steamworld.propellorshell.name=炮击者
+entity.steamworld.eclipse_stalker.name=日食追踪者
+entity.steamworld.ancite_golem.name=安科特傀儡
+entity.steamworld.villangler.name=维兰格勒
+entity.steamworld.glowdusty.name=萤火虫
+
+##################
+# Death Messages #
+##################
+death.attack.sw.coreHeat=%1$s 太接近核心了
+death.attack.sw.coreHeat.player=%1$s 被扔进核心区 %2$s
+death.attack.sw.golemFall=%1$s 被坠落的傀儡压死
+
+#######################
+# Container Name Text #
+#######################
+container.steamworld.steam_generator=蒸汽锅炉
+container.steamworld.steam_furnace=蒸汽熔炉
+container.steamworld.steam_grinder=蒸汽粉碎机
+container.steamworld.fisher=钓鱼机
+container.steamworld.farmer=农场
+container.steamworld.lumber=伐木机
+container.steamworld.fertilizer=施肥机
+container.steamworld.assembler=蒸汽装配机
+container.steamworld.experience_machine=经验生产机
+container.steamworld.energy.dynamo=蒸汽发电机
+container.steamworld.teleporter=传送器
+container.steamworld.miner=末影采矿机
+container.steamworld.fluid_miner=末影泵
+
+################
+# General Text #
+################
+text.steamworld.on=开启
+text.steamworld.off=关闭
+text.steamworld.cropmode=只对作物使用模式
+text.steamworld.teleporter.name=名字
+text.steamworld.teleporter.pass=网络ID
+text.steamworld.teleporter.upload=上传
+text.steamworld.teleporter.showhide_nomatch=显示/隐藏来自不同的网络ID
+
+###############
+# Fluid Names #
+###############
+fluid.steam=蒸汽
+fluid.empty=空
+fluid.preservationLiquid=保存液
+fluid.witheringLiquid=凋谢液
+fluid.ancite=熔融安科特
+fluid.steaite=熔融硬铁
+fluid.galite=熔融伽利特
+fluid.territe=熔融特瑞特
+fluid.essen=埃森合金
+
+######
+energy.name=能源
+
+################
+# Advancements #
+################
+advancement.steamworld.root.title=蒸汽世界
+advancement.steamworld.root.desc=与蒸汽世界有关的一切。
+advancement.steamworld.machine_base.title=一切的起源
+advancement.steamworld.machine_base.desc=合成大多数机械需要的框架.
+advancement.steamworld.steam_age.title=蒸汽时代
+advancement.steamworld.steam_age.desc=合成一个蒸汽锅炉,这是最重要的.
+advancement.steamworld.let_it_flow.title=让它流淌
+advancement.steamworld.let_it_flow.desc=制作一个流体控制器,你的管道系统需要这个方块.
+advancement.steamworld.what_goes_in.title=哪些东西会被放入...
+advancement.steamworld.what_goes_in.desc=制作一个流体吸收器,一个简单的方块用来吸取流体.
+advancement.steamworld.must_come_out.title=...一定要出来
+advancement.steamworld.must_come_out.desc=制作一个流体放置器,来将流体放置在地上.
+advancement.steamworld.treasure.title=古老的宝藏
+advancement.steamworld.treasure.desc=在古代遗迹或宝藏中找到安科特金属.
+advancement.steamworld.assembly_time.title=装配时间
+advancement.steamworld.assembly_time.desc=制作一个蒸汽装配机,接下来的合成需要他.
+advancement.steamworld.otherworldly_shard.title=另类的碎片
+advancement.steamworld.otherworldly_shard.desc=使用末影珍珠,安科特粒,以及紫颂果来装配成末影碎片...
+advancement.steamworld.speed_up.title=提升地狱的能量!
+advancement.steamworld.speed_up.desc=建造一个炼狱加速器,来加速地狱蒸汽锅炉的产生,但是代价是什么..?
+advancement.steamworld.troubleshooting.title=解决故障
+advancement.steamworld.troubleshooting.desc=制作一个硬铁扳手,相信我,你需要这个.
+advancement.steamworld.upgrade_time.title=从过去到现在
+advancement.steamworld.upgrade_time.desc=制作一个MK II升级工具,这将可以使你的机器升级到安科特级别
+advancement.steamworld.upgrade_from_another_world.title=另一个世界的升级
+advancement.steamworld.upgrade_from_another_world.desc=使用末影碎片块,末影之眼以及安科特粒制作一个MK III升级工具,这将使你的机器变得更加强大!
+advancement.steamworld.enter_the_endernet.title=确认末影网络
+advancement.steamworld.enter_the_endernet.desc=将一颗末影珍珠,一块末影碎片块以及一颗绿宝石组合在一起,你会得到什么?一个异次元维度的传送器!
+advancement.steamworld.a_whole_new_world.title=这是一个全新的世界!
+advancement.steamworld.a_whole_new_world.desc=进入古老的天空
+advancement.steamworld.i_want_to_reach_the_sky.title=我想到达天空!
+advancement.steamworld.i_want_to_reach_the_sky.desc=合成一个launcher.
+advancement.steamworld.better_than_ancite.title=比安科特更好
+advancement.steamworld.better_than_ancite.desc=制作一个伽利特锭,这是在古老的天空,迈出的第一步!
+advancement.steamworld.the_essence_of_progression.title=进步的实质
+advancement.steamworld.the_essence_of_progression.desc=通过一个伽利特粉和八个特瑞特粉合成埃森粉,通过冶炼埃森粉获得埃森锭.
+advancement.steamworld.flat.title=这是平的!
+advancement.steamworld.flat.desc=制作一块埃森板.
+advancement.steamworld.upgrade_that_pierces_the_sky.title=突破天际的升级
+advancement.steamworld.upgrade_that_pierces_the_sky.desc=在装配机中使用高级机器部件,埃森板以及钻石板合成一个埃森升级工具!
+advancement.steamworld.more_ore.title=更多的矿石!
+advancement.steamworld.more_ore.desc=制作末影采矿机,他将会使蒸汽转变成矿物.
+advancement.steamworld.free_juice.title=免费的果汁
+advancement.steamworld.free_juice.desc=制作末影液泵,他将会使用蒸汽随机开采出流体,或许他将开采出蒸汽....
+advancement.steamworld.mine_the_sky.title=开采天空
+advancement.steamworld.mine_the_sky.desc=合成一把伽利特镐,这是获得特瑞特的必须条件.
+advancement.steamworld.reaching_even_higher.title=达到更高的高度
+advancement.steamworld.reaching_even_higher.desc=合成伽利特喷气宝珠
+advancement.steamworld.traderoute_established.title=建造贸易线路
+advancement.steamworld.traderoute_established.desc=与维兰格勒交易,来换取他们的货币.
+advancement.steamworld.monopoly.title=垄断
+advancement.steamworld.monopoly.desc=与维兰格勒交易,更多...
+
+#########################
+# Sound Event Subtitles #
+#########################
+
+### Entities ###
+# Eclipse Stalker
+steamworld.subtitles.entity.eclipse_stalker.ambient=日食追踪者的呼吸
+steamworld.subtitles.entity.eclipse_stalker.death=日食追踪者死亡
+steamworld.subtitles.entity.eclipse_stalker.hurt=日食追踪者受到伤害
+steamworld.subtitles.entity.eclipse_stalker.despawn=日食追踪者消失了
+
+# Proshellor
+steamworld.subtitles.entity.proshellor.drop=炮击者掉落药水
+
+# Flying Fish
+steamworld.subtitles.entity.skyfish.plop=飞鱼 "扑通 "一声
+
+# Ancite Golem
+steamworld.subtitles.entity.ancite_golem.hurt=安科特傀儡受到伤害
+steamworld.subtitles.entity.ancite_golem.fall=安科特傀儡跌落
+steamworld.subtitles.entity.ancite_golem.death=安科特傀儡死亡
+steamworld.subtitles.entity.ancite_golem.footsteps=沉重的脚步声
+steamworld.subtitles.entity.ancite_golem.shoot=安科特傀儡射击
+steamworld.subtitles.entity.ancite_golem.fail=安科特傀儡击中
+
+# Anemone
+steamworld.subtitles.entity.anemone.shoot=海葵射击
+steamworld.subtitles.entity.anemone.hurt=海葵受到伤害
+steamworld.subtitles.entity.anemone.death=海葵死亡
+
+### Tiles ###
+steamworld.subtitles.tile.accelerator.teleport=炼狱加速器传送东西
+steamworld.subtitles.tile.launcher.launch=发射器发射
+steamworld.subtitles.tile.preservation_juice.chime=保存液流动
+steamworld.subtitles.tile.wither_juice.scream=凋谢液的尖叫
+
+############
+# Messages #
+############
+message.steamworld.rs_ignore=忽略红石.
+message.steamworld.rs_normal=只有在有红石信号是才激活.
+message.steamworld.rs_inverted=只有在没有红石信号是才激活.
+message.steamworld.upgrade_fail=这个升级无法在这个机器上使用...
+message.steamworld.launcher.force_increase=发射器的威力增加到 %s.
+message.steamworld.launcher.force_decrease发射器的威力减少到 %s.
+message.steamworld.filter_tank.set_fluid=过滤器设置成只接受 %s.
+message.steamworld.filter_tank.any_fluid=过滤器设置成可接受任何流体.
+
+############
+# JEI Text #
+############
+
+# JEI tab names
+jei.steamworld.grinder=蒸汽世界-粉碎机
+jei.steamworld.assembler=蒸汽世界-装配机
+jei.steamworld.miner=蒸汽世界-末影采矿机
+jei.steamworld.fluid_miner=蒸汽世界-末影泵
+
+# JEI general text
+jei.steamworld.time=%d 分 %d 秒
+jei.steamworld.time_tier_info=在一级就可以合成
+jei.steamworld.grinder_info=每增高一级，产出将会多出一个
+
+# JEI descriptions
+jei.steamworld.grinder.description=蒸汽磨粉机能够将矿石和钢锭研磨成粉尘.\n升级后可提高产量.
+jei.steamworld.furnace.description=蒸汽炉的工作原理与普通炉子一样，但使用的是蒸汽的力量。.\n升级后可提高效率.
+jei.steamworld.fisher.description=钓鱼机会自动捕获鱼类,水下的宝藏,和...沉没的垃圾.\n他需要与水相邻才会工作.\n升级可以提高效率
+jei.steamworld.farmer.description=农场收割你附近的农作物,并试图将种子种回去.\n升级后可以提高产量.
+jei.steamworld.lumber.description=伐木机砍掉附近的原木和树叶,并试图把树苗放回去.请注意,它并不歧视你自己放置的原木和树叶!\n升级可以提高产量.
+jei.steamworld.fertilizer.description=施肥机可以在骨粉的帮助下,使附近的农作物快速生长\n升级后可提高效率
+jei.steamworld.generator.description=蒸汽锅炉使用燃料来加热水,产生蒸汽。然后这些蒸汽可以用来为基于蒸汽的机器提供动力。\n升级可以提高效率和容量.
+jei.steamworld.generator_nether.description=与其他锅炉不同,地狱蒸汽锅炉不需要燃料.它使用的是地狱永恒不变的热量.但是相比之下,它非常缓慢.
+jei.steamworld.drain.description=流体吸收器会将附近的流体吸入其中,并且它拥有1000mb的缓存区.\n提示:在一个封闭的地方与流体放置机一起使用,可以形成一个储罐.
+jei.steamworld.faucet.description=流体放置器可以将其中的流体放置到这个世界上,并且它拥有1000mb的缓存区.\n提示:在一个封闭的地方与流体吸收器一起使用,可以形成一个储罐
+jei.steamworld.fluid_controller.description=流体控制器可以将一侧的流体抽到另外一侧,它拥有一个小的缓存区,可以使用红石控制,右键点击它可以改变他的红石控制行为.\n升级可以增加效率和缓存区大小.
+jei.steamworld.assembler.description=蒸汽装配机是用来组装(或者说是制作)各种工作台无法制作的的高级物品.
+jei.steamworld.experience_machine.description=经验制造机正如它所描述的那样:吸收蒸汽并创造经验.\n升级可以提高效率
+jei.steamworld.miner.description=末影采矿机从末影网络上一个一个遥远的地方开采矿物.但是,不要为这些细节而烦恼.\n采矿机不能使用系统等级或者更高等级的钻头,升级可以增加效率和使用的钻头等级.
+jei.steamworld.accelerator.description=炼狱加速器可以稍微加速地狱锅炉的效率,但是要付出代价.......
+jei.steamworld.energy.description=蒸汽发电机和电力锅炉分别可以将蒸汽转换成红石通量(也就是我们常说的RF),把电力转换成蒸汽.
+
+#############################
+# Tinkers' Integration Text #
+#############################
+
+# TC Material names
+material.steaite.name=硬铁
+material.ancite.name=安科泰
+material.preservation.name=保鲜
+material.galite.name=伽利特
+material.essen.name=埃森
+
+# TC UI stuff
+ui.mininglevel.essen=科瑞特
+
+# TC Modifier names
+modifier.selective.name=有选择
+modifier.selective.desc=§o只有善良的人才能生存!§r\n会治疗任何不是怪物的生物。在某种方面上来说，它将表现为被击中的生物沐浴在保鲜液中。
+modifier.antigrav.name=反重力
+modifier.antigrav.desc=§oWoaaaah!§r\n任何射出的子弹都会反重力
+modifier.dual_nature.name=双重性
+modifier.dual_nature.desc=§o高空杀戮，低空挖掘§r\n这个工具的伤害输出会变高，但挖矿速度会越低!
+
+##########################
+# SteamWorld Manual Text #
+##########################
+
+text.steamworld.manual.title.title=蒸汽世界手册
+text.steamworld.manual.page.title=\n\n\n\nSteamWorld %4$s%1$s%5$s for\nMinecraft %4$s%2$s%5$s\nusing Forge %4$s%3$s%5$s
+text.steamworld.manual.title.intro=简介
+text.steamworld.manual.page.intro=欢迎!我将是你的向导!\n\n本手册将简要介绍蒸汽世界模组的基础知识.\n\n本手册可以升级,以获得更多的信息,使用相应层级的金属锭.\n\n如果你在玩整合包或者服务器,那么本指南提及到的配方可能会改变.
+text.steamworld.manual.title.fluid_control=流体控制
+text.steamworld.manual.page.fluid_control=蒸汽世界模组中的机器都是基于蒸汽的,但是你如何把蒸汽从锅炉转移到另外的机器上呢?答案很简单\n\n你只需要一个流体控制器以及几根管道.
+text.steamworld.manual.title.fluid_control_2=
+text.steamworld.manual.page.fluid_control_2=流体控制器像一个泵或者阀门,他把流体从一边抽到另外一边,他可以通过红石控制.\n\n在控制器的红色一端是输入(可以从蒸汽锅炉或者类似的机器抽取).\n\n在绿色的一端是输出(可以把蒸汽输送到蒸汽熔炉或者之类的机器).\n\n流体控制器不仅仅可以抽取蒸汽,他还可以抽取水和岩浆!\n用这个把水从流体吸收器转移到发电机中!
+text.steamworld.manual.title.basic_machine=基础机械
+text.steamworld.manual.page.basic_machine=当然，每个人都知道炉子是如何工作的，而蒸汽炉也不例外.\n\n他使用的蒸汽而不是煤炭或者其他燃料.\n\n因此我们只谈其他机器.
+text.steamworld.manual.title.basic_machine_2=
+text.steamworld.manual.page.basic_machine_2=其一,磨粉机接收任何矿石,块或者锭,并且将其粉碎成对应的粉.\n如果他粉碎的是矿石,那么粉碎出来的粉会随着机器等级增加而增加.\n\n还有一个钓鱼机,可以自动钓起可以钓到的东西,将它放在水边就好了.\n\n施肥机,农场,伐木机涵盖了你广泛的农业需求.\n但是别忘了,施肥机实际上需要骨粉,但是他会节约使用.
+text.steamworld.manual.title.basic_machine_3=
+text.steamworld.manual.page.basic_machine_3=基础机械最后的是流体放置器和流体吸收器\n\n正如他们名字所描述的,流体吸收器可以将世界上的流体吸收,流体放置器可以将流体放置在世界上.
+text.steamworld.manual.title.crypts=墓穴
+text.steamworld.manual.page.crypts=在这些方尖碑的标记下,你可以找到墓穴.\n\n墓穴里有宝藏,包括罕见的,有价值的安科特金属!\n\n请留意它们!
+text.steamworld.manual.title.upgrades=升级
+text.steamworld.manual.page.upgrades=除了一些例外情况，几乎所有的机器都可以使用升级器进行升级.\n\n升级可以做很多事情,例如提高机器的效率或产量.\n\n自己试试吧!
+text.steamworld.manual.title.assembler=装配机
+text.steamworld.manual.page.assembler=装配机是通往第三等级的门户\n\n除了蒸汽外,装配机还需要水晶来进行辅助.\n每次合成时,水晶会被缓慢损耗.
+text.steamworld.manual.title.assembler_recipes=装配机合成小贴士
+text.steamworld.manual.page.assembler_recipes=
+text.steamworld.manual.title.accelerator=炼狱加速器
+text.steamworld.manual.page.accelerator=如果你有一个地狱锅炉,那么你可以使用加速器来加速它.\n\n加速器会是相邻的地狱锅炉的速度增加一点点.\n\n但是这是有代价的.\n小心,因为它可能会产生奇怪的访客或者被传送到其他地方!
+text.steamworld.manual.title.teleporter=传送器
+text.steamworld.manual.page.teleporter=在末影等级,你有机会制作出传送器\n\n他们工作方式很简单:\n选择一个网络ID,然后选择另外一个传送器来进行传送.\n\n发送端需要有蒸汽,并且两个传送器共享网络ID,他就会生效.
+text.steamworld.manual.title.teleporter_details=
+text.steamworld.manual.page.teleporter_details=1.是蒸汽的储存槽.\n2.是其他传送器的名单.\n3.是切换其他传送者网络ID的可见性的按钮.\n4.是上传你的这个传送器的按钮.\n5.是你的当前传送器的名字.\n6.是你的当前传送器的网络ID
+text.steamworld.manual.title.portal=古老的天空传送门
+text.steamworld.manual.page.portal=准备好出发了吗?\n在5x5的石英块的中心放置传送器, 然后在其周围添加一个5x5的石英块框架,然后在传送器上面放置方尖碑. 请确保这个立方体结构的其他部分是空气.
+text.steamworld.manual.title.portal_2=
+text.steamworld.manual.page.portal_2=如果按照上面的步骤搭建传送门,那么恭喜你,你现在可以进入古老的天空了!\n\n接下来是探索这个新世界了,但是别忘记带一个鞘翅!
+text.steamworld.manual.title.plates=金属板材
+text.steamworld.manual.page.plates=你现在可以在装配机里面制作各种板材.\n\n有两种方式,一种是在左边的三个槽内放入对应的金属锭,来进行合成.\n\n第二种是使用前一种的板子和相应的材料一起放入装配机来进行合成\n如果你装了JEI模组，那么你可以在JEI中看到对应的配方
+text.steamworld.manual.title.upgrades_2=升级
+text.steamworld.manual.page.upgrades_2=再一次!在正常情况下,你可以在装配机里面制作高级的升级工具.\n\n这一次需要埃森板,钻石板以及高级机器部件.
+text.steamworld.manual.title.miner=末影采矿机以及末影泵
+text.steamworld.manual.page.miner=请看末影采矿机和末影泵.\n\n虽然很昂贵,但是它们可以几乎无限的创造大量的资源.\n\n采矿机可以产生矿石,而泵可以产生流体.
+text.steamworld.manual.title.eclipse=日食
+text.steamworld.manual.page.eclipse=虽然古老的天空可能没有固定的昼夜周期,但有日蚀仍旧的存在.\n\n虽然它发生时与夜间相似,但是日食的发生的频率比较低,持续的时间也较短,但是他也更加危险!
