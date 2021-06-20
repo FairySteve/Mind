@@ -1,0 +1,168 @@
+{
+    "buttons":
+    { 
+
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -20,
+            "posY" : 39,
+            "width" : 20,
+            "height" : 20,
+			"alignment": "center",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+		"language":
+        {
+            "text" : "",
+            "posX" : 0,
+            "posY" : 39,
+            "width" : 20,
+            "height" : 20,
+			"alignment": "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+		"singleplayer":{
+            "text":"menu.singleplayer",
+            "texture":"mind:bg_1.png",
+            "posX":-95,
+            "posY":-30,
+            "width":61,
+            "height":30,
+            "imageWidth":51,
+            "imageHeight":30,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"singleplayer"
+            }
+        },
+		"multiplayer":{
+            "text":"menu.multiplayer",
+            "texture":"mind:bg_1.png",
+            "posX":-25,
+            "posY":-30,
+            "width":61,
+            "height":30,
+            "imageWidth":51,
+            "imageHeight":30,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"multiplayer"
+            }
+        },
+		 "TV":{
+            "text":"联系作者",
+            "texture":"mind:bg_1.png",
+            "posX":45,
+            "posY":-30,
+            "width":61,
+            "height":30,
+            "imageWidth":51,
+            "imageHeight":30,
+            "alignment":"center",
+            "action":{
+                "type":"openLink",
+                "link":"https://www.huya.com/23018149"
+            }
+        },
+		  "aifadian": {
+            "text": " ",
+            "posX": 5,
+            "posY": -40,
+            "width": 100,
+            "height": 35,
+            "alignment": "bottom_left",
+            "texture": "mind:afdian.png",
+            "imageWidth": "465",
+            "imageHeight": "192",
+            "action": {
+              "type": "openLink",
+              "link": "https://afdian.net/@Jack_471339359"
+            }
+          },
+		"options":{
+            "text":"menu.options",
+            "texture":"mind:bg_1.png",
+            "posX":-25,
+            "posY":10,
+            "width":61,
+            "height":30,
+            "imageWidth":51,
+            "imageHeight":30,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"options"
+            }
+        },
+		"modlist":{
+            "text":"fml.menu.mods",
+            "texture":"mind:bg_1.png",
+            "posX":-95,
+            "posY":10,
+            "width":61,
+            "height":30,
+            "imageWidth":51,
+            "imageHeight":30,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"mods"
+            }
+        },
+		"quit":{
+            "text":"menu.quit",
+            "texture":"mind:bg_1.png",
+            "posX":45,
+            "posY":10,
+            "width":61,
+            "height":30,
+            "imageWidth":51,
+            "imageHeight":30,
+            "alignment":"center",
+            "action" : {
+                "type" : "quit"
+            }
+        }
+		
+    },
+
+
+    "images":{
+        "picture":{
+            "image":"mind:title.png",
+            "posX":-40,
+            "posY":-78,
+            "width":90,
+            "height":40,
+            "alignment":"center"
+        }
+    },
+	
+    "other":
+    {  
+        "background":
+        {
+            "image":"mind:bg_0.png",
+            "mode":"fill"
+        },
+		"splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "内测版"
+        }
+    }
+}

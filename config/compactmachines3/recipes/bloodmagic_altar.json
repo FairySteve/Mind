@@ -1,0 +1,141 @@
+{
+  "name": "bloodmagic_altar",
+
+  "disabled": false,
+
+  "target-item": "bloodmagic:altar",
+  "target-count": 1,
+
+  "duration": 200,
+  "symmetrical": true,
+
+  "catalyst": "bloodmagic:sacrificial_dagger",
+  "input-types": {
+    "a": {
+      "id": "chisel:concrete_red1",
+      "meta": 12
+    },
+    "b": {
+      "id": "thaumcraft:stone_arcane",
+      "meta": 0
+    },
+    "c": {
+      "id": "minecraft:diamond_block",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b",
+        "b",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "_",
+        "_",
+        "_",
+        "b"
+      ],
+      [
+        "b",
+        "_",
+        "c",
+        "_",
+        "b"
+      ],
+      [
+        "b",
+        "_",
+        "_",
+        "_",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "b",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b",
+        "b",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "b",
+        "b",
+        "a"
+      ]
+    ]
+  ]
+
+}
