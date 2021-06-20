@@ -1,0 +1,15 @@
+{
+	x: -5.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "fbefefa4",
+		type: "kill",
+		entity: "minecraft:endermite",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e7f1a6b4",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

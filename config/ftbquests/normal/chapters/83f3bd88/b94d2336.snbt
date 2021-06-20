@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "97257975",
+		type: "kill",
+		entity: "minecraft:zombie_villager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "6b3e545f",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

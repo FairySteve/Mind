@@ -1,0 +1,25 @@
+{
+	x: -18.0d,
+	y: -19.0d,
+	text: [
+		"多方块结构搭建完成之后，需提供相应需求物，产生热量",
+		"材料需按照JEI比例进行投掷对应比例的物品数量"
+	],
+	dependencies: [
+		"52a7d7f7"
+	],
+	tasks: [{
+		uid: "9ad9b884",
+		type: "item",
+		items: [{
+			item: "skyresources:combustionheater"
+		}]
+	},
+	{
+		uid: "17c20716",
+		type: "item",
+		items: [{
+			item: "skyresources:casing"
+		}]
+	}]
+}

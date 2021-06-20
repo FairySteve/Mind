@@ -1,0 +1,22 @@
+{
+	x: -13.0d,
+	y: -18.0d,
+	text: [
+		"可通过筛子或碎石杵获取"
+	],
+	dependencies: [
+		"6647c276"
+	],
+	tasks: [{
+		uid: "de511284",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "b91cb206",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

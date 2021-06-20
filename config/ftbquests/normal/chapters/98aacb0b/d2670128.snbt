@@ -1,0 +1,36 @@
+{
+	x: -14.0d,
+	y: -16.0d,
+	text: [
+		"铁物质球通过TNT爆炸物质球有80%的概率产生"
+	],
+	dependencies: [
+		"6e90f122"
+	],
+	tasks: [{
+		uid: "05d7bbf3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 6"
+		}]
+	},
+	{
+		uid: "f995e372",
+		type: "item",
+		items: [{
+			item: "mind:iron_paint_ball"
+		}]
+	},
+	{
+		uid: "64f7fbd8",
+		type: "item",
+		items: [{
+			item: "minecraft:tnt"
+		}]
+	}],
+	rewards: [{
+		uid: "e0d3caa9",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

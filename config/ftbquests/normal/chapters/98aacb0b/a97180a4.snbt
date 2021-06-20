@@ -1,0 +1,22 @@
+{
+	x: -12.0d,
+	y: -20.0d,
+	text: [
+		"右键泥土，即可转化为草方块"
+	],
+	dependencies: [
+		"6647c276"
+	],
+	tasks: [{
+		uid: "c12f2678",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "005b6746",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

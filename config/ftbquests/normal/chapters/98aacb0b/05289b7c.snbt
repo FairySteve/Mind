@@ -1,0 +1,21 @@
+{
+	x: -15.0d,
+	y: -22.0d,
+	text: [
+		"shift右键雪片即可获得雪球",
+		"不要把雪人弄下去咯",
+		"注：任务右上角可以领取南瓜头"
+	],
+	tasks: [{
+		uid: "6e6f5b37",
+		type: "item",
+		items: [{
+			item: "minecraft:snowball"
+		}]
+	}],
+	rewards: [{
+		uid: "c28a5239",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

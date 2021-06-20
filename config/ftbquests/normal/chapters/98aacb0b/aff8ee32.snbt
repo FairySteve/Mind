@@ -1,0 +1,19 @@
+{
+	x: -14.0d,
+	y: -19.0d,
+	dependencies: [
+		"75e3f4cd"
+	],
+	tasks: [{
+		uid: "98c8a89e",
+		type: "item",
+		items: [{
+			item: "skyresources:drycactus"
+		}]
+	}],
+	rewards: [{
+		uid: "ff01b00c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

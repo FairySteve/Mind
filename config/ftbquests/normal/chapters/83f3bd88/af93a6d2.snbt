@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: -6.5d,
+	text: [
+		"Steve"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "b87c5454",
+		type: "item",
+		items: [{
+			id: "dakimakuramod:item.daki-design",
+			tag: {
+				dakiDirName: "Steve",
+				dakiPackName: "Andrew's Vanilla Mobs"
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "7bd2c06a",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

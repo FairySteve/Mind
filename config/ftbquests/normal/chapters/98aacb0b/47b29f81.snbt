@@ -1,0 +1,54 @@
+{
+	x: -15.0d,
+	y: -16.0d,
+	text: [
+		"将铁物质球仍进溶解试剂即可获得铁粒"
+	],
+	dependencies: [
+		"d2670128"
+	],
+	tasks: [{
+		uid: "ce5bdabb",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_nugget"
+		}]
+	}],
+	rewards: [{
+		uid: "ab67ab3a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4696958616088314637L,
+					AS_Amulet_HolderMost: 5747929481992816096L
+				}
+			},
+			id: "botania:magnetring",
+			tag: {}
+		}
+	},
+	{
+		uid: "21bb7c52",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4696958616088314637L,
+					AS_Amulet_HolderMost: 5747929481992816096L
+				}
+			},
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 31,
+				structureName: "config/capsule/prefabs/BrushTower",
+				display: {
+					color: 3949738
+				},
+				label: "BrushTower"
+			},
+			Damage: 3s
+		}
+	}]
+}

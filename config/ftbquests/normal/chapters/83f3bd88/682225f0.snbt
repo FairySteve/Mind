@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "a33f31f6",
+		type: "item",
+		items: [{
+			item: "mind:mind"
+		}],
+		count: 300L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "4c3e2108",
+		type: "choice",
+		table: 0
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -16.0d,
+	y: -22.0d,
+	text: [
+		"炎炎夏日 用迷你冰箱冰镇一下自已吧"
+	],
+	dependencies: [
+		"ad91e8a3"
+	],
+	tasks: [{
+		uid: "ea533527",
+		type: "item",
+		items: [{
+			item: "skyresources:minifreezer"
+		}]
+	}],
+	rewards: [{
+		uid: "3af5bb8e",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "小帮手",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "buildinggadgets:buildingtool",
+		tag: {
+			blockstate: {
+				Name: "minecraft:air"
+			}
+		}
+	},
+	x: -3.5d,
+	y: -5.5d,
+	tasks: [{
+		uid: "52264c88",
+		type: "item",
+		items: [{
+			item: "mind:mind"
+		}],
+		count: 3L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "9ca9bf9a",
+		type: "choice",
+		table: 3
+	}]
+}

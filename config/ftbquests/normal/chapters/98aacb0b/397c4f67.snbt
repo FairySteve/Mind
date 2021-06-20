@@ -1,0 +1,31 @@
+{
+	title: "刷怪房",
+	x: -17.0d,
+	y: -19.0d,
+	dependencies: [
+		"52a7d7f7"
+	],
+	tasks: [{
+		uid: "b1157ef2",
+		type: "kill",
+		entity: "minecraft:zombie",
+		value: 1L
+	},
+	{
+		uid: "623b4603",
+		type: "kill",
+		entity: "minecraft:skeleton",
+		value: 1L
+	},
+	{
+		uid: "f0a37011",
+		type: "kill",
+		entity: "minecraft:creeper",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9c4bbf7c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "火力发电机",
+	icon: "industrialforegoing:petrified_fuel_generator",
+	x: -1.5d,
+	y: -5.5d,
+	tasks: [{
+		uid: "b1e98b16",
+		type: "item",
+		items: [{
+			item: "mind:mind"
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8f27fc6c",
+		type: "item",
+		team_reward: true,
+		item: "industrialforegoing:petrified_fuel_generator",
+		only_one: true
+	}]
+}

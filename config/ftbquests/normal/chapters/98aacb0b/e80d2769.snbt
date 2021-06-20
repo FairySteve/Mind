@@ -1,0 +1,26 @@
+{
+	x: -17.0d,
+	y: -18.0d,
+	dependencies: [
+		"864c6f2f"
+	],
+	tasks: [{
+		uid: "3b3f8a5f",
+		type: "item",
+		items: [{
+			item: "primal_tech:charcoal_block"
+		}]
+	},
+	{
+		uid: "8bfa379c",
+		type: "item",
+		items: [{
+			item: "primal_tech:clay_kiln"
+		}]
+	}],
+	rewards: [{
+		uid: "f2bf4645",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

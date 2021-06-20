@@ -1,0 +1,19 @@
+{
+	title: "腐肉",
+	icon: "minecraft:rotten_flesh",
+	x: -5.5d,
+	y: -4.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e1fd5161",
+		type: "item",
+		items: [{
+			item: "mind:mind"
+		}]
+	}],
+	rewards: [{
+		uid: "e8972eb8",
+		type: "item",
+		item: "minecraft:rotten_flesh"
+	}]
+}

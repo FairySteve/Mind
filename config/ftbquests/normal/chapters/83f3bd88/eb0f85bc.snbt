@@ -1,0 +1,19 @@
+{
+	title: "岩浆膏",
+	icon: "minecraft:magma_cream",
+	x: 1.5d,
+	y: -3.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "62aeb6c9",
+		type: "item",
+		items: [{
+			item: "mind:mind"
+		}]
+	}],
+	rewards: [{
+		uid: "a1deff7a",
+		type: "item",
+		item: "minecraft:magma_cream"
+	}]
+}
