@@ -1,0 +1,28 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	text: [
+		"可世界盐右键萤石块获得"
+	],
+	dependencies: [
+		"d8cbc797",
+		"48eed761"
+	],
+	tasks: [{
+		uid: "548fe917",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7d49c33",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

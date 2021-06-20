@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 3.5d,
+	text: [
+		"供桌可以一次性仍3份材料进行合成！"
+	],
+	dependencies: [
+		"0c186d1e"
+	],
+	tasks: [{
+		uid: "81c40a60",
+		type: "item",
+		items: [{
+			item: "naturesaura:offering_table"
+		}]
+	}],
+	rewards: [{
+		uid: "b3d0146e",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

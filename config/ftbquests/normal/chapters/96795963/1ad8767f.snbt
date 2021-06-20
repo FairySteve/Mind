@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"82f8116d"
+	],
+	tasks: [{
+		uid: "c094da3a",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "86e41c02",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

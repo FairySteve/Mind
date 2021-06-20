@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"合成材料:任意三种水晶、红石、燧石、碗",
+		"合成方式:工作台无序合成"
+	],
+	dependencies: [
+		"7212e448"
+	],
+	tasks: [{
+		uid: "2ad7b31c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "03f89ea9",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

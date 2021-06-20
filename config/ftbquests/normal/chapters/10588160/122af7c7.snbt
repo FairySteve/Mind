@@ -1,0 +1,28 @@
+{
+	x: -0.5d,
+	y: 3.5d,
+	dependencies: [
+		"95e1fda5"
+	],
+	tasks: [{
+		uid: "dd8f055f",
+		type: "advancement",
+		icon: "naturesaura:offering_table",
+		advancement: "naturesaura:offering",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "d001e2b2",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "minecraft:diamond",
+			tag: {
+				display: {
+					Name: "太阳晶体(伪)"
+				}
+			}
+		},
+		only_one: true
+	}]
+}

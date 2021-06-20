@@ -1,0 +1,60 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"ad1bd447",
+		"6ec1f6ca"
+	],
+	tasks: [{
+		uid: "8c70be28",
+		type: "item",
+		items: [{
+			id: "forestry:chipsets",
+			tag: {
+				T: 0s
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "06364c65",
+		type: "item",
+		items: [{
+			id: "forestry:chipsets",
+			tag: {
+				T: 1s
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "47f9294f",
+		type: "item",
+		items: [{
+			id: "forestry:chipsets",
+			tag: {
+				T: 2s
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9acc427e",
+		type: "item",
+		items: [{
+			id: "forestry:chipsets",
+			tag: {
+				T: 3s
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea8dba6e",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

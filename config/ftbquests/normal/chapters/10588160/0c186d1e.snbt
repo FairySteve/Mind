@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: 2.5d,
+	text: [
+		"可通过书籍获取多方块结构搭建指引"
+	],
+	dependencies: [
+		"34aebd4a"
+	],
+	tasks: [{
+		uid: "550e9317",
+		type: "item",
+		items: [{
+			item: "naturesaura:wood_stand"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "48465bd9",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

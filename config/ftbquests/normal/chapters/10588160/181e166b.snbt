@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 2.5d,
+	dependencies: [
+		"0c186d1e"
+	],
+	tasks: [{
+		uid: "fb033b4c",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "0d68ca2a",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

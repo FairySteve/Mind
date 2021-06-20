@@ -1,0 +1,20 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	dependencies: [
+		"9550c850",
+		"cc46a730"
+	],
+	tasks: [{
+		uid: "261fbfba",
+		type: "item",
+		items: [{
+			item: "naturesaura:flower_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "dcbb00e5",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

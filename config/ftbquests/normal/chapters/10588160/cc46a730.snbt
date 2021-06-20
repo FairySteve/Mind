@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: 2.5d,
+	dependencies: [
+		"861d2f6e"
+	],
+	tasks: [{
+		uid: "04a7d75c",
+		type: "item",
+		items: [{
+			item: "minecraft:double_plant 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "cc4c425f",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

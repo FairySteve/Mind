@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"世界盐右键工作台获得",
+		"在这之前你需要制造工作台"
+	],
+	dependencies: [
+		"48eed761"
+	],
+	tasks: [{
+		uid: "1d28b3f3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "25274ceb",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

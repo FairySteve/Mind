@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	dependencies: [
+		"4d1f73fa"
+	],
+	tasks: [{
+		uid: "133a92d6",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_joy"
+		}]
+	}],
+	rewards: [{
+		uid: "07b3940b",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

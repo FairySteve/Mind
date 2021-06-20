@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	dependencies: [
+		"1f1399e7"
+	],
+	tasks: [{
+		uid: "70975174",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ecf61407",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

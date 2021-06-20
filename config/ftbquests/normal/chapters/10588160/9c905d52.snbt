@@ -1,0 +1,26 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	text: [
+		"可通过世界盐右键半砖工作台获得"
+	],
+	dependencies: [
+		"48eed761"
+	],
+	tasks: [{
+		uid: "ae3ada54",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f38464d4",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

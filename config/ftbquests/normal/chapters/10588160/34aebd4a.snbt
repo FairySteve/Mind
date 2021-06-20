@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"破坏闪耀树获得"
+	],
+	dependencies: [
+		"0806415e"
+	],
+	tasks: [{
+		uid: "b36f052f",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_leaf"
+		}]
+	}],
+	rewards: [{
+		uid: "ea1829e2",
+		type: "item",
+		item: "mind:mind"
+	}]
+}
