@@ -1,0 +1,31 @@
+{
+	x: -4.5d,
+	y: -2.5d,
+	dependencies: [
+		"6790c202"
+	],
+	tasks: [{
+		uid: "74a0c5e0",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 3"
+		}]
+	},
+	{
+		uid: "d208553d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:rainbowrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "14d53665",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

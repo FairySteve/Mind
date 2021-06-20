@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: -1.5d,
+	dependencies: [
+		"385222ef"
+	],
+	tasks: [{
+		uid: "dd8e960e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "62afbfa6",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

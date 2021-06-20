@@ -1,0 +1,33 @@
+{
+	x: 0.5d,
+	y: -5.5d,
+	dependencies: [
+		"59df2693"
+	],
+	tasks: [{
+		uid: "5e13561a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	},
+	{
+		uid: "4133fe71",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	},
+	{
+		uid: "6ab8fa52",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}]
+	}],
+	rewards: [{
+		uid: "97aac3d3",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -0.5d,
+	y: 1.5d,
+	dependencies: [
+		"3a89f513"
+	],
+	tasks: [{
+		uid: "ca9615db",
+		type: "item",
+		items: [{
+			item: "theaurorian:spectralsilk"
+		}]
+	},
+	{
+		uid: "459d478d",
+		type: "item",
+		items: [{
+			item: "theaurorian:soullessflesh"
+		}]
+	},
+	{
+		uid: "7ecc0a12",
+		type: "item",
+		items: [{
+			item: "theaurorian:aurorianslimeball"
+		}]
+	}],
+	rewards: [{
+		uid: "e0bd41b2",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

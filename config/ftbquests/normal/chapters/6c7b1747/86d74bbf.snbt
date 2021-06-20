@@ -1,0 +1,55 @@
+{
+	title: "液化塑料",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "plastic",
+			Amount: 1000
+		}
+	},
+	x: -4.5d,
+	y: -6.5d,
+	text: [
+		"炼油厂可以从机器的背后输入热油，而蒸汽可以从机器的左右两侧输入",
+		"通过JEI,您可以看到使用炼油厂可以生产的各种燃油",
+		"它将把石油提炼成各种燃料。炼油厂的每一面都有三个输出槽，用于输出加工过的油",
+		"上层输出槽输出GUI中输出槽右侧缓存的流体",
+		"中层输出槽输出GUI输出槽中间缓存的流体",
+		"下层输出槽输出GUI输出槽左侧缓存的流体"
+	],
+	dependencies: [
+		"8261ada4",
+		"cb652566"
+	],
+	tasks: [{
+		uid: "ea33b97d",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 32L
+	},
+	{
+		uid: "9e696a1a",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 48L
+	},
+	{
+		uid: "7f511ba9",
+		type: "item",
+		items: [{
+			item: "magneticraft:refinery"
+		}]
+	}],
+	rewards: [{
+		uid: "324cb2b2",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

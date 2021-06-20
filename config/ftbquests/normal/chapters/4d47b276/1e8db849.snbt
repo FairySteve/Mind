@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 0.5d,
+	dependencies: [
+		"e951e47a"
+	],
+	tasks: [{
+		uid: "77d18248",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}]
+	}],
+	rewards: [{
+		uid: "58e86eca",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

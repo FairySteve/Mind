@@ -1,0 +1,31 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	dependencies: [
+		"e742db89"
+	],
+	tasks: [{
+		uid: "953ef39d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "803b75f8",
+		type: "item",
+		item: "mind:mind"
+	},
+	{
+		uid: "53f43740",
+		type: "command",
+		auto: "enabled",
+		command: "/tc warp @s set 0",
+		player_command: true
+	}]
+}

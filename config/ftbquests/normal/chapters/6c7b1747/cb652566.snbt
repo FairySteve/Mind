@@ -1,0 +1,38 @@
+{
+	x: -1.5d,
+	y: -6.5d,
+	text: [
+		"有关锅炉的加热，可以使用燃烧室或电力加热器或RF加热器来加热锅炉。",
+		"有关蒸汽的排出，您需要使用磁场工艺的扳手右键锅炉与铁质管道连接的位置。"
+	],
+	dependencies: [
+		"8261ada4"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "863d899c",
+		type: "item",
+		items: [{
+			item: "magneticraft:steam_boiler"
+		}]
+	},
+	{
+		uid: "f102ca51",
+		type: "item",
+		items: [{
+			item: "magneticraft:water_generator"
+		}]
+	},
+	{
+		uid: "b96e8bb1",
+		type: "item",
+		items: [{
+			item: "magneticraft:combustion_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "a1f11253",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

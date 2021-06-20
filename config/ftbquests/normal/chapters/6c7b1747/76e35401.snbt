@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"束缚之剑shift右键即可转换形态，这时击杀怪物概率掉落气血碎片"
+	],
+	dependencies: [
+		"bb0dab1b"
+	],
+	tasks: [{
+		uid: "b241fd66",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:bound_sword",
+			tag: {
+				Unbreakable: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dac95644",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

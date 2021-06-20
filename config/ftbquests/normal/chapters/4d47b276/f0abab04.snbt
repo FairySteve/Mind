@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"悖论物质右键裂缝概率获得些许虚空种子或原始珍珠"
+	],
+	dependencies: [
+		"fae23dc4"
+	],
+	tasks: [{
+		uid: "d2a2c8f1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0dfed22b",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

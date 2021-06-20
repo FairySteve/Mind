@@ -1,0 +1,68 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "hot_crude",
+			Amount: 1000
+		}
+	},
+	x: -2.5d,
+	y: -5.5d,
+	text: [
+		"可以使用磁场工艺的电力加热器或使用rf功率的RF加热器进行加热,当原油加热器达到350C时,产出热油",
+		"原油的输入位于机器的背面,热油的输出位于机器的顶部。",
+		"加热口位于多方块的底部"
+	],
+	dependencies: [
+		"8c90b733"
+	],
+	tasks: [{
+		uid: "52f9c351",
+		type: "item",
+		items: [{
+			item: "magneticraft:oil_heater"
+		}]
+	},
+	{
+		uid: "249a5d16",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 14L
+	},
+	{
+		uid: "ebd55a94",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 12L
+	},
+	{
+		uid: "4142170c",
+		type: "observation",
+		title: "观测:原油加热器",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hot_crude",
+				Amount: 1000
+			}
+		},
+		match_type: "block_id",
+		match: "magneticraft:multiblock_gap",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "f6ef1cc9",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

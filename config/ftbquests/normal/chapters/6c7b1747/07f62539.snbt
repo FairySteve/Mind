@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: -2.5d,
+	dependencies: [
+		"50ac67f4"
+	],
+	tasks: [{
+		uid: "237d1ca7",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "96ad78e0",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

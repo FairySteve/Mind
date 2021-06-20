@@ -1,0 +1,53 @@
+{
+	x: -3.5d,
+	y: -1.5d,
+	text: [
+		"符石地牢内获取极光锭",
+		"暗石地牢内获取本影锭",
+		"月宫内获取月凝晶锭"
+	],
+	dependencies: [
+		"3a89f513"
+	],
+	tasks: [{
+		uid: "e10f9438",
+		type: "item",
+		items: [{
+			item: "theaurorian:aurorianiteingot"
+		}]
+	},
+	{
+		uid: "35454d1e",
+		type: "item",
+		items: [{
+			item: "theaurorian:umbraingot"
+		}]
+	},
+	{
+		uid: "35ecc116",
+		type: "item",
+		items: [{
+			item: "theaurorian:crystallineingot"
+		}]
+	},
+	{
+		uid: "ba6bfba3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "theaurorian:locator",
+			tag: {
+				dungeon: "Darkstone"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "156012d6",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

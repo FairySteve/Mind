@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	dependencies: [
+		"3f21f899"
+	],
+	tasks: [{
+		uid: "38548f78",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "f605220e",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

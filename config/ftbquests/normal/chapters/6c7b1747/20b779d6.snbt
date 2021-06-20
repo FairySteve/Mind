@@ -1,0 +1,30 @@
+{
+	x: -3.5d,
+	y: -7.5d,
+	tasks: [{
+		uid: "15ef3730",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "9986ef56",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 512"
+		}]
+	}],
+	rewards: [{
+		uid: "47c5c7bb",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

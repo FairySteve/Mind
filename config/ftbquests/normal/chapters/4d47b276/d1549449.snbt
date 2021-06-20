@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	dependencies: [
+		"adee2dc2"
+	],
+	tasks: [{
+		uid: "61b14941",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b780d064",
+		type: "item",
+		item: "mind:mind"
+	}]
+}
