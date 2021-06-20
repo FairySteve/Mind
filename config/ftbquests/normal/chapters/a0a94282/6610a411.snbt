@@ -1,0 +1,54 @@
+{
+	x: -2.0d,
+	y: -3.5d,
+	dependencies: [
+		"07bb876c"
+	],
+	tasks: [{
+		uid: "8fb65277",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal"
+		}]
+	},
+	{
+		uid: "e2a548a2",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal 1 1"
+		}]
+	},
+	{
+		uid: "d17f363a",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal 1 2"
+		}]
+	},
+	{
+		uid: "ca8a0176",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal 1 4"
+		}]
+	},
+	{
+		uid: "69275e03",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal 1 3"
+		}]
+	},
+	{
+		uid: "4e8bfcb8",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "8bf62b43",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

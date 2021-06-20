@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	dependencies: [
+		"27f7e8fd"
+	],
+	tasks: [{
+		uid: "d6001312",
+		type: "item",
+		items: [{
+			item: "lightningcraft:material 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "07e2e4f0",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

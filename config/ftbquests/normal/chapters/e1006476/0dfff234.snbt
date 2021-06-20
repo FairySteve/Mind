@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	text: [
+		"与地狱门搭建方式一致,使用幽冥弹即可开门"
+	],
+	dependencies: [
+		"9fc0603d"
+	],
+	tasks: [{
+		uid: "dbbc9cb6",
+		type: "item",
+		items: [{
+			item: "lightningcraft:stone_block 1 3"
+		}],
+		count: 10L
+	},
+	{
+		uid: "5df01b51",
+		type: "item",
+		items: [{
+			item: "lightningcraft:material 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "b643a838",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

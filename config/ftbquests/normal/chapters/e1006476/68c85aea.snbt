@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: -4.5d,
+	dependencies: [
+		"8e7fdea7"
+	],
+	tasks: [{
+		uid: "16e447ab",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "crafttweaker:melter"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d106b4a7",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

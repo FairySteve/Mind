@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -1.5d,
+	dependencies: [
+		"33f7340d"
+	],
+	tasks: [{
+		uid: "c2df034c",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:enchanter"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "907cb278",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

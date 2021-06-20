@@ -1,0 +1,50 @@
+{
+	title: "结晶共鸣",
+	icon: "bloodmagic:item_demon_crystal",
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"恶魔结晶坛放正中央",
+		"恶魔坩埚任意放置，切忌不要放在结晶坛边上",
+		"恶魔坩埚里面放置地狱魂石，需蕴含一定的意志",
+		"当结晶坛上面的意志晶簇长到五瓣时会分裂出四种晶簇"
+	],
+	dependencies: [
+		"80a9d3ad",
+		"2dfe2a15"
+	],
+	tasks: [{
+		uid: "c9c98f3b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	},
+	{
+		uid: "5febdd56",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	},
+	{
+		uid: "bc1de531",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crucible"
+		}]
+	},
+	{
+		uid: "e242d14f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "f66a3b6c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

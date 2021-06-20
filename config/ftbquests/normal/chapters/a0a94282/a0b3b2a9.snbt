@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	dependencies: [
+		"f6e13ad8"
+	],
+	tasks: [{
+		uid: "cb4201e2",
+		type: "item",
+		items: [{
+			item: "enderio:block_powered_spawner"
+		}]
+	}],
+	rewards: [{
+		uid: "d4107ce8",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

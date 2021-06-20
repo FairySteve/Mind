@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	text: [
+		"将铁锭、金锭、钻石扔到地上，使用高尔夫球杆右键即可获得"
+	],
+	dependencies: [
+		"3eb4d2c9"
+	],
+	tasks: [{
+		uid: "02615412",
+		type: "item",
+		items: [{
+			item: "lightningcraft:ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "e9477609",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

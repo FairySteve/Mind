@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	dependencies: [
+		"e1d39e4c"
+	],
+	tasks: [{
+		uid: "a30b1ec2",
+		type: "item",
+		items: [{
+			item: "lightningcraft:lightning_infuser"
+		}]
+	}],
+	rewards: [{
+		uid: "e275f84c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

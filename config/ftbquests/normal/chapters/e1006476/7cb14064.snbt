@@ -1,0 +1,18 @@
+{
+	title: "冥界",
+	x: 0.5d,
+	y: -1.5d,
+	dependencies: [
+		"0dfff234"
+	],
+	tasks: [{
+		uid: "c0593270",
+		type: "dimension",
+		dim: -9
+	}],
+	rewards: [{
+		uid: "a2149fc9",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

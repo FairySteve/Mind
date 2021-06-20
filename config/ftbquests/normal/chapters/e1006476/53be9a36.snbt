@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	text: [
+		"1个输入口代表1个液体槽,俩种液体合金，则需要运用到2个输入口",
+		"底部为液体输入，顶部为液体输出"
+	],
+	dependencies: [
+		"68c85aea"
+	],
+	tasks: [{
+		uid: "9ef9128d",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "54f1f95c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

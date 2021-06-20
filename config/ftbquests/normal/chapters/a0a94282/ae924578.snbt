@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -5.5d,
+	dependencies: [
+		"a79b230d"
+	],
+	tasks: [{
+		uid: "c800b390",
+		type: "item",
+		items: [{
+			item: "mind:chip"
+		}]
+	}],
+	rewards: [{
+		uid: "8724c1d5",
+		type: "item",
+		item: "mind:mind"
+	}]
+}
