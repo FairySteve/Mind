@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: 1.5d,
+	text: [
+		"时钟符文需提供时钟座星能方可合成"
+	],
+	dependencies: [
+		"f6c6834d"
+	],
+	tasks: [{
+		uid: "9c576fba",
+		type: "item",
+		items: [{
+			item: "mind:clock_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "e4d298a3",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

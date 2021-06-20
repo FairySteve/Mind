@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	dependencies: [
+		"8c18380d"
+	],
+	tasks: [{
+		uid: "11db88cc",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockstarlightinfuser"
+		}]
+	}],
+	rewards: [{
+		uid: "d3d998b3",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

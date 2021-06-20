@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	dependencies: [
+		"6f35fcec"
+	],
+	tasks: [{
+		uid: "fdcc12cc",
+		type: "item",
+		items: [{
+			item: "mind:five_colors_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "32bb99be",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

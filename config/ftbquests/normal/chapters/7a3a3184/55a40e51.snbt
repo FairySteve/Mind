@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "4b30a6ed",
+		type: "item",
+		items: [{
+			item: "mind:zero_o"
+		}]
+	}],
+	rewards: [{
+		uid: "39a00919",
+		type: "random",
+		team_reward: true,
+		table: 1
+	}]
+}
