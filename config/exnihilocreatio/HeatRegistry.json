@@ -1,0 +1,9 @@
+{
+  "minecraft:magma:-1": 2,
+  "minecraft:glowstone:-1": 2,
+  "minecraft:fire:-1": 4,
+  "minecraft:torch:-1": 1,
+  "minecraft:flowing_lava:-1": 3,
+  "minecraft:lava:-1": 3,
+  "contenttweaker:mind_heatsand":25
+}

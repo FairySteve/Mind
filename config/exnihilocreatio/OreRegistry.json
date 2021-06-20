@@ -1,0 +1,12 @@
+[
+  {
+    "name": "gold",
+    "color": "ffff00",
+    "ingot": "minecraft:gold_ingot:-1"
+  },
+  {
+    "name": "iron",
+    "color": "bf8040",
+    "ingot": "minecraft:iron_ingot:-1"
+  }
+]
