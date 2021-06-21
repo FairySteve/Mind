@@ -35,6 +35,6 @@ ExplosionCrafting.explodeItemRecipe(<mind:iron_paint_ball>,<appliedenergistics2:
 //月露
 FluidToItem.transform(<astralsorcery:blockmarble>*4,<liquid:tamoonwater>, [<theaurorian:aurorianstone>*16],true);
 //星能液
-FluidToItem.transform(<mind:astronomical_rune>,<liquid:astralsorcery.liquidstarlight>, [<mind:blank_rune>,<astralsorcery:blockcelestialgateway>,<astralsorcery:itemshiftingstar>.withTag({astralsorcery: {}}),],true);
+FluidToItem.transform(<mind:astronomical_rune>,<liquid:astralsorcery.liquidstarlight>, [<mind:blank_rune>,<astralsorcery:blockcelestialgateway>,<astralsorcery:itemshiftingstar>],true);
 //方镁混合物
 FluidToFluid.transform(<liquid:mind_blend_caminite>,<liquid:petrotheum>,[<ore:dyeLightGray>*2,<minecraft:clay_ball>]);
