@@ -21,6 +21,7 @@ SalisMundus.addSingleConversion(<blockstate:slabmachines:workbench_slab>.block, 
 SalisMundus.addSingleConversion(<blockstate:minecraft:glowstone>.block, <bloodmagic:arcane_ashes>);
 SalisMundus.addSingleConversion(<blockstate:botania:livingrock>.block, <botanicadds:dreamrock>);
 SalisMundus.addSingleConversion(<blockstate:minecraft:lapis_block>.block, <botanicadds:elven_lapis_block>);
+SalisMundus.addSingleConversion(<blockstate:thaumcraft:research_table>.block, <researchtable:table>);
 
 Crucible.registerRecipe("silentwoodsapling", "", <theaurorian:silentwoodsapling>, <thaumcraft:sapling_silverwood>, [<aspect:praecantatio>*58]);
 Crucible.registerRecipe("stellpaintball", "", <mind:steel_paint_ball>, <mind:iron_paint_ball>, [<aspect:ignis>*40,<aspect:potentia>*40]);
