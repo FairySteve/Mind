@@ -16,3 +16,4 @@
 <mind:world_rune_four>.addTooltip(format.red("将世界符文ONE与世界符文THREE同时扔到地上然后使用雷电轰击获得"));
 <environmentaltech:laser_lens_crystal>.displayName = "物质聚合透镜";
 <bloodmagic:monster_soul:4>.addTooltip(format.red("使用机器击杀怪物获取时,概率造成崩端"));
+<researchtable:table>.addTooltip(format.green("可世界盐右键神秘研究台获得"));
