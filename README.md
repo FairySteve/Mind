@@ -1,10 +1,14 @@
 # Mind
 Mind 思维
 
-Mind uses CurseForge for the initial module installation, but subsequent updates and magical modifications are performed in the HMCL launcher environment.
+Mind is a technology + magic Modpack made by menghua_i,which means to use your ingenuity to develop your creativity.
 
-Mind is a project created by MengHua_I. The goal of the project is to create a complete integration package of technology + magic automation for magic reform.
+This warehouse only stores the magic change scripts/configuration files/materials written/modified/created for this integration package!
 
-Mind是由 梦华i 制作的项目，项目目标是制作一个完整的科技+魔法自动化的魔改整合包。
+If there are some problems/BUG feedback, etc., please send issues. 
 
-Mind使用CurseForge进行一开始的模组安装，但后继更新及魔改内容均在HMCL启动器环境下进行
+Mind是由 梦华i 制作的一个科技+魔法整合包,意为通过你的聪明才智来发挥你的创意.
+
+此仓库仅储存为此整合包编写/修改/创作的魔改脚本/配置文件/材质！
+
+如果有一些问题/BUG反馈等问题,欢迎发送issues.
