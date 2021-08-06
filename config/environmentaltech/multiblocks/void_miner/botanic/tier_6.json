@@ -244,6 +244,51 @@
       "target": "blue",
       "weight": 8,
       "id": "thaumcraft:sapling_silverwood"
+    },
+    {
+      "target": "green",
+      "weight": 1,
+      "id": "forestry:fruits:3"
+    },
+    {
+      "target": "green",
+      "weight": 1,
+      "id": "randomthings:beans"
+    },
+    {
+      "target": "green",
+      "weight": 1,
+      "id": "forestry:fruits:5"
+    },
+    {
+      "target": "green",
+      "weight": 1,
+      "id": "forestry:fruits:4"
+    },
+    {
+      "target": "green",
+      "weight": 1,
+      "id": "forestry:fruits:4"
+    },
+    {
+      "target": "green",
+      "weight": 1,
+      "id": "forestry:fruits:2"
+    },
+    {
+      "target": "green",
+      "weight": 1,
+      "id": "forestry:fruits:6"
+    },
+    {
+      "target": "green",
+      "weight": 1,
+      "id": "forestry:fruits:1"
+    },
+    {
+      "target": "green",
+      "weight": 1,
+      "id": "forestry:fruits"
     }
   ]
 }
