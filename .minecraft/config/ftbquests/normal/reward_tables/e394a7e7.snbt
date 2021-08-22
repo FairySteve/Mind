@@ -1,0 +1,68 @@
+{
+	title: "珍贵战利品礼包",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:nether_star",
+		weight: 10
+	},
+	{
+		item: "minecraft:golden_apple 1 1",
+		weight: 20
+	},
+	{
+		item: "naturesaura:clock_hand",
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {
+					storedTime: 1940
+				}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: "mind:randombag0",
+		weight: 40
+	},
+	{
+		item: "minecraft:beacon",
+		weight: 10
+	},
+	{
+		item: "extrautils2:opinium 1 3",
+		weight: 3
+	},
+	{
+		item: "minecraft:coal 1 1",
+		weight: 20
+	},
+	{
+		item: "minecraft:coal",
+		weight: 20
+	},
+	{
+		item: "minecraft:stick",
+		weight: 20
+	},
+	{
+		item: "minecraft:diamond_block",
+		weight: 8
+	}],
+	loot_crate: {
+		string_id: "_",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

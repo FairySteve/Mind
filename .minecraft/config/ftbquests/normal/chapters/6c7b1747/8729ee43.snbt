@@ -1,0 +1,20 @@
+{
+	x: -3.5d,
+	y: -3.5d,
+	description: "{two.8}",
+	dependencies: [
+		"9bc17439"
+	],
+	tasks: [{
+		uid: "f610ab73",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}],
+	rewards: [{
+		uid: "8e6372b4",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

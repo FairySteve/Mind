@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"7ddcea6a"
+	],
+	tasks: [{
+		uid: "c3622980",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 14"
+		}]
+	},
+	{
+		uid: "e5c80d06",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 15"
+		}]
+	},
+	{
+		uid: "77a7da70",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2"
+		}]
+	}],
+	rewards: [{
+		uid: "180b2843",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

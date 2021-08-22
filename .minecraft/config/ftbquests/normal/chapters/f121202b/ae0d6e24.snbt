@@ -1,0 +1,75 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	dependencies: [
+		"a1e4209e"
+	],
+	tasks: [{
+		uid: "e2cd57fd",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:gem_dust 1 8"
+		}]
+	},
+	{
+		uid: "2b7b439b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:gem_dust 1 1"
+		}]
+	},
+	{
+		uid: "dd772c49",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:dust 1 10"
+		}]
+	},
+	{
+		uid: "6ac1c9c8",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:gem_dust 1 9"
+		}]
+	},
+	{
+		uid: "35c01b8d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:gem_dust 1 5"
+		}]
+	},
+	{
+		uid: "f85031cb",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:gem_dust 1 10"
+		}]
+	},
+	{
+		uid: "c10dfa75",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:compound 1 10"
+		}]
+	},
+	{
+		uid: "c4d891f2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:dust 1 9"
+		}]
+	},
+	{
+		uid: "262db516",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 771"
+		}]
+	}],
+	rewards: [{
+		uid: "fcf6a0d3",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

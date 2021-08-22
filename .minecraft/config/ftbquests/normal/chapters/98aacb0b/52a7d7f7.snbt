@@ -1,0 +1,27 @@
+{
+	x: -17.0d,
+	y: -20.0d,
+	description: "{zero.7}",
+	dependencies: [
+		"237bf3bd"
+	],
+	tasks: [{
+		uid: "289a0c65",
+		type: "item",
+		items: [{
+			item: "primal_tech:work_stump"
+		}]
+	},
+	{
+		uid: "c915b381",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal_tech:rock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

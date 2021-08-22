@@ -1,7 +1,0 @@
-{
-	title: "Mind_Three",
-	icon: "mind:three",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

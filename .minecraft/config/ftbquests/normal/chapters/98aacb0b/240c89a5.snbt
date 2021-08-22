@@ -1,0 +1,20 @@
+{
+	x: -14.0d,
+	y: -17.0d,
+	description: "{zero.22}",
+	dependencies: [
+		"da2081e1"
+	],
+	tasks: [{
+		uid: "14533207",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mind_heatsand"
+		}]
+	}],
+	rewards: [{
+		uid: "2e97f342",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

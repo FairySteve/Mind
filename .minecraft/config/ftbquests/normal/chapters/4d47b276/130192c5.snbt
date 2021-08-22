@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	dependencies: [
+		"e742db89"
+	],
+	tasks: [{
+		uid: "0df19532",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}],
+	rewards: [{
+		uid: "d07d581d",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

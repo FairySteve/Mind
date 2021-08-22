@@ -1,0 +1,18 @@
+{
+	title: "{zero.13}",
+	icon: "minecraft:rotten_flesh",
+	x: -17.0d,
+	y: -19.0d,
+	dependencies: [
+		"52a7d7f7"
+	],
+	tasks: [{
+		uid: "02af273b",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "9c4bbf7c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

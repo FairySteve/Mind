@@ -1,0 +1,25 @@
+{
+	x: -18.0d,
+	y: -19.0d,
+	text: [
+		"{zero.12}",
+		"{zero.12.1}"
+	],
+	dependencies: [
+		"52a7d7f7"
+	],
+	tasks: [{
+		uid: "9ad9b884",
+		type: "item",
+		items: [{
+			item: "skyresources:combustionheater"
+		}]
+	},
+	{
+		uid: "17c20716",
+		type: "item",
+		items: [{
+			item: "skyresources:casing"
+		}]
+	}]
+}

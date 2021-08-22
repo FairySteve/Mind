@@ -1,0 +1,7 @@
+{
+	title: "Mind_Two",
+	icon: "mind:two",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

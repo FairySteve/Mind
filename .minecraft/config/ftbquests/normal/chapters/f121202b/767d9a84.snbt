@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: -5.5d,
+	tasks: [{
+		uid: "bf262f3f",
+		type: "item",
+		items: [{
+			item: "steamworld:ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "257e482c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

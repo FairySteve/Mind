@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "9691bd44",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mind:graduation_items"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "0dbf47d9",
+		type: "choice",
+		team_reward: true,
+		table: 0
+	}]
+}

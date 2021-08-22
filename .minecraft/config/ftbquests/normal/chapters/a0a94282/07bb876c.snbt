@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -3.5d,
+	dependencies: [
+		"b1cc9821"
+	],
+	tasks: [{
+		uid: "5b66d604",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "020615d0",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -3.5d,
+	y: -6.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "439526e0",
+		type: "forge_energy",
+		value: 100000000L
+	}],
+	rewards: [{
+		uid: "33d07d3e",
+		type: "item",
+		item: "mind:mind",
+		random_bonus: 2
+	}]
+}

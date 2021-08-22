@@ -1,0 +1,53 @@
+{
+	title: "{two.5}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "lpg",
+			Amount: 1000
+		}
+	},
+	x: -0.5d,
+	y: -6.5d,
+	description: "{two.5.1}",
+	text: [
+		"{two.5.2}",
+		"{two.5.3}",
+		"{two.5.4}"
+	],
+	dependencies: [
+		"8261ada4",
+		"cb652566"
+	],
+	tasks: [{
+		uid: "728dd3f3",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 32L
+	},
+	{
+		uid: "c7053635",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 48L
+	},
+	{
+		uid: "a5d5b853",
+		type: "item",
+		items: [{
+			item: "magneticraft:refinery"
+		}]
+	}],
+	rewards: [{
+		uid: "f4c39c8b",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

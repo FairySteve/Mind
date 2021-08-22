@@ -1,0 +1,20 @@
+{
+	x: -2.5d,
+	y: 1.5d,
+	description: "{eight.0}",
+	dependencies: [
+		"f6c6834d"
+	],
+	tasks: [{
+		uid: "9c576fba",
+		type: "item",
+		items: [{
+			item: "mind:clock_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "e4d298a3",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "{three.5}",
+	icon: "bloodmagic:item_demon_crystal",
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"{three.5.1}"
+	],
+	dependencies: [
+		"80a9d3ad",
+		"2dfe2a15"
+	],
+	tasks: [{
+		uid: "c9c98f3b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	},
+	{
+		uid: "5febdd56",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	},
+	{
+		uid: "bc1de531",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crucible"
+		}]
+	},
+	{
+		uid: "e242d14f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "f66a3b6c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

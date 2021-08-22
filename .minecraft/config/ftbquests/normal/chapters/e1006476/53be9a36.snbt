@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	text: [
+		"{three.8}"
+	],
+	dependencies: [
+		"68c85aea"
+	],
+	tasks: [{
+		uid: "9ef9128d",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "54f1f95c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

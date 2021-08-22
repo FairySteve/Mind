@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "f206529b",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}]
+	}],
+	rewards: [{
+		uid: "e2285edb",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

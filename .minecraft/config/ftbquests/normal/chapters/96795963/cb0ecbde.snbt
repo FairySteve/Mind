@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "61acfdb2",
+		type: "item",
+		items: [{
+			item: "forestry:carpenter"
+		}]
+	}],
+	rewards: [{
+		uid: "e1138ad1",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

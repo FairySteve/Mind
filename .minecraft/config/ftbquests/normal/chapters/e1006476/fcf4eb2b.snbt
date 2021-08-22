@@ -1,0 +1,74 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"{three.6}"
+	],
+	dependencies: [
+		"9856b2e7"
+	],
+	tasks: [{
+		uid: "81d20edd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4696958616088314637L,
+					AS_Amulet_HolderMost: 5747929481992816096L
+				}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 64.0d,
+				demonWillType: "corrosive"
+			}
+		}]
+	},
+	{
+		uid: "87b58288",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 64.0d,
+				demonWillType: "destructive"
+			}
+		}]
+	},
+	{
+		uid: "8da711e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 64.0d,
+				demonWillType: "steadfast"
+			}
+		}]
+	},
+	{
+		uid: "cff79c14",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {
+				souls: 64.0d,
+				demonWillType: "vengeful"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f3bec008",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

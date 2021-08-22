@@ -1,0 +1,20 @@
+{
+	title: "{shop.17}",
+	icon: "minecraft:ender_pearl",
+	x: 0.5d,
+	y: 1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e7d9351b",
+		type: "item",
+		items: [{
+			item: "mind:mind"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "f777f601",
+		type: "item",
+		item: "minecraft:ender_pearl"
+	}]
+}

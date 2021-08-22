@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: -3.5d,
+	dependencies: [
+		"3ae65851"
+	],
+	tasks: [{
+		uid: "64643c93",
+		type: "item",
+		items: [{
+			item: "steamworld:generic_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "caa00268",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

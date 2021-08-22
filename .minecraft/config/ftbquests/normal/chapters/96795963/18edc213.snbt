@@ -1,0 +1,26 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"a810aa9d"
+	],
+	tasks: [{
+		uid: "53aded44",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:soot_covered_plate"
+		}]
+	},
+	{
+		uid: "ad9c8282",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:soot_covered_redstone"
+		}]
+	}],
+	rewards: [{
+		uid: "d9facc63",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	dependencies: [
+		"ba2cf340"
+	],
+	tasks: [{
+		uid: "599791b0",
+		type: "item",
+		items: [{
+			item: "botanicadds:pool_dreaming"
+		}]
+	}],
+	rewards: [{
+		uid: "1aa28329",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

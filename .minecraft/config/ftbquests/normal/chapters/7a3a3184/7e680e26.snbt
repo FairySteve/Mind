@@ -1,0 +1,35 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "93daa735",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -4696958616088314637L,
+					AS_Amulet_HolderMost: 5747929481992816096L
+				}
+			},
+			id: "draconicadditions:chaotic_bow",
+			tag: {
+				Profile_0: {
+					bowZoomModifier: 0,
+					bowFireArrow: 1b,
+					bowArrowSpeedModifier: 400,
+					bowShockPower: 1.0d,
+					bowAutoFire: 1b,
+					bowArrowDamage: 5.0d
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a14f5aa3",
+		type: "choice",
+		team_reward: true,
+		table: 0
+	}]
+}

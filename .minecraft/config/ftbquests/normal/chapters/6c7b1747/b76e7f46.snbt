@@ -1,0 +1,27 @@
+{
+	x: -3.5d,
+	y: -5.5d,
+	dependencies: [
+		"86d74bbf",
+		"483a250f"
+	],
+	tasks: [{
+		uid: "b2aacbe8",
+		type: "item",
+		items: [{
+			item: "requious:diamond_purifier"
+		}]
+	},
+	{
+		uid: "4b4bff8e",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "03b2e04e",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

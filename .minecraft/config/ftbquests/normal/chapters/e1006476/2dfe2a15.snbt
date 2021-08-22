@@ -1,0 +1,27 @@
+{
+	x: -2.5d,
+	y: -4.5d,
+	description: "{three.0}",
+	text: [
+		"{three.0.1}"
+	],
+	dependencies: [
+		"80a9d3ad"
+	],
+	tasks: [{
+		uid: "2e6a5eaf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bbfe8a5b",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

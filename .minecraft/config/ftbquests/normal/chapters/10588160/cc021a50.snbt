@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 4.5d,
+	dependencies: [
+		"71843319"
+	],
+	tasks: [{
+		uid: "e835dcc4",
+		type: "item",
+		items: [{
+			item: "naturesaura:furnace_heater"
+		}]
+	}],
+	rewards: [{
+		uid: "7039e88e",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

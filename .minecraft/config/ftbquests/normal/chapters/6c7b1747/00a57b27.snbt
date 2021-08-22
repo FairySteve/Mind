@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: -2.5d,
+	text: [
+		"{two.10}"
+	],
+	dependencies: [
+		"6790c202"
+	],
+	tasks: [{
+		uid: "e1e3fb64",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	}],
+	rewards: [{
+		uid: "f3b0767d",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

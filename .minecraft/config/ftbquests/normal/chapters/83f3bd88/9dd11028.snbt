@@ -1,0 +1,19 @@
+{
+	title: "{shop.1}",
+	icon: "embers:archaic_brick",
+	x: -4.5d,
+	y: -5.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "d8d73a6f",
+		type: "item",
+		items: [{
+			item: "mind:mind"
+		}]
+	}],
+	rewards: [{
+		uid: "ee140d6e",
+		type: "item",
+		item: "embers:archaic_brick"
+	}]
+}

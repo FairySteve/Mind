@@ -1,0 +1,17 @@
+{
+	title: "{expert.1}",
+	x: -3.5d,
+	y: -1.0d,
+	description: "{expert.1.1}",
+	text: [
+		"{expert.1.2}",
+		"{expert.1.3}"
+	],
+	tasks: [{
+		uid: "9c5c7b00",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes 1 2"
+		}]
+	}]
+}

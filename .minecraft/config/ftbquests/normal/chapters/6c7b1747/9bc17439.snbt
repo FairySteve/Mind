@@ -1,0 +1,52 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"{two.9}"
+	],
+	dependencies: [
+		"3f21f899"
+	],
+	tasks: [{
+		uid: "38548f78",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "aa5ac291",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				CustomPotionColor: 16253176,
+				CustomPotionEffects: [{
+					Ambient: 0b,
+					CurativeItems: [{
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 0b,
+					Duration: 1200,
+					Id: 10b,
+					Amplifier: 9b
+				}],
+				display: {
+					Lore: [
+						"血魔法专属"
+					],
+					Name: "血泉"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f605220e",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

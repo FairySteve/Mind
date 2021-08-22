@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 4.5d,
+	dependencies: [
+		"71843319"
+	],
+	tasks: [{
+		uid: "b3f7cae8",
+		type: "item",
+		items: [{
+			item: "mind:coal_paint_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "d18ae79e",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

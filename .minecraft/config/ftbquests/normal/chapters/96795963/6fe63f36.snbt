@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 4.0d,
+	dependencies: [
+		"2c368dc3"
+	],
+	tasks: [{
+		uid: "a3adf3ba",
+		type: "item",
+		items: [{
+			item: "mekanism:dirtydust"
+		}]
+	}],
+	rewards: [{
+		uid: "ee5e39cf",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

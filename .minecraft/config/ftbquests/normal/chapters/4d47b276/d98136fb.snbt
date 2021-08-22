@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 0.5d,
+	dependencies: [
+		"9847ef36"
+	],
+	tasks: [{
+		uid: "c72cc239",
+		type: "item",
+		items: [{
+			item: "mind:blank_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "86a76e2c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

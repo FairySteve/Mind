@@ -1,0 +1,26 @@
+{
+	x: -12.0d,
+	y: -19.0d,
+	dependencies: [
+		"a97180a4"
+	],
+	tasks: [{
+		uid: "51850a23",
+		type: "item",
+		items: [{
+			item: "minecraft:yellow_flower"
+		}]
+	},
+	{
+		uid: "f613cc9f",
+		type: "item",
+		items: [{
+			item: "minecraft:red_flower"
+		}]
+	}],
+	rewards: [{
+		uid: "64fe2b56",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

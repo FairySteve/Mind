@@ -1,0 +1,15 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "83918103",
+		type: "kill",
+		entity: "minecraft:zombie_pigman",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "08dbc5c3",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

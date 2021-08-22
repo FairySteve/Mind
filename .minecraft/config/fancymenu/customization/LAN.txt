@@ -1,0 +1,36 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiShareToLan
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  identifier = %id=345100%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505100%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345972%
+  orientation = mid-centered
+  x = -147
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=505972%
+  orientation = mid-centered
+  x = 6
+  action = movebutton
+  y = -10
+}
+

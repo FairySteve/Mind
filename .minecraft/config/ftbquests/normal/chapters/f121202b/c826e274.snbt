@@ -1,0 +1,19 @@
+{
+	title: "古老的天空",
+	x: -3.5d,
+	y: -1.5d,
+	dependencies: [
+		"252670ca",
+		"d4af2caa"
+	],
+	tasks: [{
+		uid: "62fface1",
+		type: "dimension",
+		dim: 38620
+	}],
+	rewards: [{
+		uid: "10ec1873",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

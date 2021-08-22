@@ -1,0 +1,22 @@
+{
+	x: -16.0d,
+	y: -16.0d,
+	text: [
+		"{zero.24}"
+	],
+	dependencies: [
+		"da2081e1"
+	],
+	tasks: [{
+		uid: "fa0647bc",
+		type: "item",
+		items: [{
+			item: "stonechest:chest_cobblestone"
+		}]
+	}],
+	rewards: [{
+		uid: "72cac4fb",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

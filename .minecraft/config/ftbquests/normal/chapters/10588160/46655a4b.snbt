@@ -1,0 +1,31 @@
+{
+	title: "{one.1}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "mind_crystal",
+			Amount: 1000
+		}
+	},
+	x: 1.5d,
+	y: -0.5d,
+	description: "{one.1.1}",
+	dependencies: [
+		"69643e04"
+	],
+	tasks: [{
+		uid: "4967cb8f",
+		type: "item",
+		items: [{
+			item: "mind:one"
+		}]
+	}],
+	rewards: [{
+		uid: "2f40c32e",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

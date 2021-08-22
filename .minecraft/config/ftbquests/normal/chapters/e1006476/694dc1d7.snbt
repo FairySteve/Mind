@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: -3.5d,
+	dependencies: [
+		"f6e5c2de"
+	],
+	tasks: [{
+		uid: "eac13036",
+		type: "item",
+		items: [{
+			item: "embers:ingot_dawnstone"
+		}]
+	}],
+	rewards: [{
+		uid: "81f3c2ad",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

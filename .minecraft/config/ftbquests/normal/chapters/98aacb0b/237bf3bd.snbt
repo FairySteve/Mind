@@ -1,0 +1,21 @@
+{
+	x: -18.0d,
+	y: -20.0d,
+	description: "{zero.6}",
+	dependencies: [
+		"e1c1650f",
+		"5291be12"
+	],
+	tasks: [{
+		uid: "17295cae",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1049a49d",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

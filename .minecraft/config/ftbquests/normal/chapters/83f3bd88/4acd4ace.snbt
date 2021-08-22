@@ -1,0 +1,21 @@
+{
+	title: "{shop.11}",
+	x: -0.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "b8132500",
+		type: "item",
+		items: [{
+			item: "mind:mind"
+		}],
+		count: 100L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8200e39c",
+		type: "choice",
+		title: "{shop.11}",
+		team_reward: true,
+		table: 1
+	}]
+}

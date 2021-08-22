@@ -1,0 +1,26 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	dependencies: [
+		"7cb14064"
+	],
+	tasks: [{
+		uid: "2bde9794",
+		type: "item",
+		items: [{
+			item: "lightningcraft:wood_log"
+		}]
+	},
+	{
+		uid: "8a3e5e3c",
+		type: "item",
+		items: [{
+			item: "lightningcraft:light_block"
+		}]
+	}],
+	rewards: [{
+		uid: "1c1d88f6",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

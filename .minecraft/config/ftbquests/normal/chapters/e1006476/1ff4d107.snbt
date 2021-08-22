@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: -5.5d,
+	dependencies: [
+		"c84a6ce2",
+		"8e7fdea7"
+	],
+	tasks: [{
+		uid: "92c25d6a",
+		type: "item",
+		items: [{
+			item: "embers:ember_activator"
+		}]
+	}],
+	rewards: [{
+		uid: "8ce4c55d",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

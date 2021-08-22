@@ -1,0 +1,26 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "f4f707a3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:celestial_notes"
+		}]
+	}],
+	rewards: [{
+		uid: "a0d64398",
+		type: "item",
+		team_reward: true,
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemilluminationwand",
+			tag: {
+				astralsorcery: {}
+			}
+		},
+		only_one: true
+	}]
+}

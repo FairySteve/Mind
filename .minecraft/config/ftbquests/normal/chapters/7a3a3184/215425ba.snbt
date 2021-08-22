@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "7a8b99ee",
+		type: "item",
+		items: [{
+			item: "draconicadditions:chaos_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "77094c71",
+		type: "choice",
+		team_reward: true,
+		table: 0
+	}]
+}

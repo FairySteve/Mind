@@ -1,0 +1,38 @@
+{
+	title: "{three.1}",
+	icon: {
+		id: "thermalexpansion:florb",
+		tag: {
+			Fluid: "lifeessence"
+		}
+	},
+	x: -1.5d,
+	y: -4.5d,
+	text: [
+		"{three.1.1}"
+	],
+	dependencies: [
+		"80a9d3ad",
+		"2dfe2a15"
+	],
+	tasks: [{
+		uid: "fa506f9d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	},
+	{
+		uid: "0c22d899",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 36L
+	}],
+	rewards: [{
+		uid: "080251e3",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

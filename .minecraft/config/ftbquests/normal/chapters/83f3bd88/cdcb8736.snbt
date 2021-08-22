@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: -3.5d,
+	can_repeat: true,
+	dependencies: [
+		"4d0fa9fa"
+	],
+	tasks: [{
+		uid: "c01f5471",
+		type: "item",
+		items: [{
+			item: "mind:mind"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "4fabe533",
+		type: "item",
+		item: "mind:mind",
+		random_bonus: 4
+	}]
+}

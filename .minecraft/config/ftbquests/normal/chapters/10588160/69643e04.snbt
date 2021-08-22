@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: -0.5d,
+	hide: true,
+	tasks: [{
+		uid: "3e471206",
+		type: "item",
+		items: [{
+			item: "skyresources:fusiontable"
+		}]
+	}],
+	rewards: [{
+		uid: "77e35e6b",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

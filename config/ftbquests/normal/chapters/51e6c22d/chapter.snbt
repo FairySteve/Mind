@@ -1,7 +1,0 @@
-{
-	title: "Mind_Eight",
-	icon: "mind:eight",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

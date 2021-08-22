@@ -1,0 +1,35 @@
+{
+	x: -1.5d,
+	y: -6.5d,
+	description: "{two.4}",
+	dependencies: [
+		"8261ada4"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "863d899c",
+		type: "item",
+		items: [{
+			item: "magneticraft:steam_boiler"
+		}]
+	},
+	{
+		uid: "f102ca51",
+		type: "item",
+		items: [{
+			item: "magneticraft:water_generator"
+		}]
+	},
+	{
+		uid: "b96e8bb1",
+		type: "item",
+		items: [{
+			item: "magneticraft:combustion_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "a1f11253",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

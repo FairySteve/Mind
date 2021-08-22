@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: -4.5d,
+	dependencies: [
+		"5d673688"
+	],
+	tasks: [{
+		uid: "acd16f7d",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "de3ca678",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	shape: "rsquare",
+	description: "{one.5}",
+	text: [
+		"{one.5.1}",
+		"{one.5.2}"
+	],
+	dependencies: [
+		"b89292fb",
+		"48eed761"
+	],
+	tasks: [{
+		uid: "9025dbfa",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "0c033e38",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

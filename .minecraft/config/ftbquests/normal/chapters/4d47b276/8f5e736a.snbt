@@ -1,0 +1,27 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	dependencies: [
+		"8c845361"
+	],
+	tasks: [{
+		uid: "4fa08e70",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "mind_gallium_amalgam",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "007237e6",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

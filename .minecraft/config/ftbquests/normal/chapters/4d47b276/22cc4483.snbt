@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: -0.5d,
+	dependencies: [
+		"ba335850"
+	],
+	tasks: [{
+		uid: "42e9340f",
+		type: "item",
+		items: [{
+			item: "theaurorian:auroriansteel"
+		}]
+	}],
+	rewards: [{
+		uid: "a3e3e597",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

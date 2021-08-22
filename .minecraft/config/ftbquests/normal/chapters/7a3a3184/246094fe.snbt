@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "33cf2e9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "avaritia:infinity_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b1fc309",
+		type: "choice",
+		team_reward: true,
+		table: 0
+	}]
+}

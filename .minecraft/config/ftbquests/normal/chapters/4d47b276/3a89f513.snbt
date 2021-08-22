@@ -1,0 +1,20 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	dependencies: [
+		"00a8ed1f"
+	],
+	tasks: [{
+		uid: "8fa404f0",
+		type: "item",
+		items: [{
+			item: "theaurorian:aurorianportalframebricks"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "fb820833",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

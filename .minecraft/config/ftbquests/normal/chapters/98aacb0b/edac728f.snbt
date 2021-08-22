@@ -1,0 +1,22 @@
+{
+	x: -13.0d,
+	y: -19.0d,
+	description: "{zero.16}",
+	dependencies: [
+		"e74799f0"
+	],
+	tasks: [{
+		uid: "efe8b557",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_sieve"
+		}]
+	},
+	{
+		uid: "088e680b",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 1"
+		}]
+	}]
+}

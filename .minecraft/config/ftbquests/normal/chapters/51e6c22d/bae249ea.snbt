@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "5ef12061",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "46f256b1",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

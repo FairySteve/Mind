@@ -1,0 +1,21 @@
+{
+	x: -13.0d,
+	y: -20.0d,
+	description: "{zero.10}",
+	dependencies: [
+		"35ceda2f",
+		"e74799f0"
+	],
+	tasks: [{
+		uid: "fc352832",
+		type: "item",
+		items: [{
+			item: "primal_tech:stick_bundle"
+		}]
+	}],
+	rewards: [{
+		uid: "56541098",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

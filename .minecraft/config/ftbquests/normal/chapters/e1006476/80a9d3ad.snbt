@@ -1,0 +1,21 @@
+{
+	x: -1.5d,
+	y: -5.5d,
+	tasks: [{
+		uid: "16b27d39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_diviner",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "505f899a",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

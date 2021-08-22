@@ -1,0 +1,25 @@
+{
+	icon: "magneticraft:solar_panel",
+	x: -1.5d,
+	y: -7.5d,
+	tasks: [{
+		uid: "c6f6c33d",
+		type: "item",
+		items: [{
+			item: "magneticraft:solar_panel"
+		}]
+	},
+	{
+		uid: "967b5e83",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "80333e3f",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

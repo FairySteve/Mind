@@ -1,7 +1,0 @@
-{
-	title: "Mind_Seven",
-	icon: "mind:seven",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

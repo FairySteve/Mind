@@ -1,0 +1,34 @@
+{
+	x: -2.5d,
+	y: 0.5d,
+	dependencies: [
+		"8988a12d"
+	],
+	tasks: [{
+		uid: "3832751c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1163527c",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

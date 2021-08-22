@@ -1,0 +1,33 @@
+{
+	x: -2.5d,
+	y: -2.5d,
+	dependencies: [
+		"15ac984e"
+	],
+	tasks: [{
+		uid: "37b65abb",
+		type: "item",
+		items: [{
+			item: "steamworld:ore"
+		}]
+	},
+	{
+		uid: "8f68e8d6",
+		type: "item",
+		items: [{
+			item: "steamworld:ore 1 7"
+		}]
+	},
+	{
+		uid: "bc909878",
+		type: "item",
+		items: [{
+			item: "steamworld:ore 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "b141be6f",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

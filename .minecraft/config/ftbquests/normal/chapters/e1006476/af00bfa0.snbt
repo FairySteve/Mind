@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: -4.5d,
+	text: [
+		"{three.3}"
+	],
+	dependencies: [
+		"8e7fdea7"
+	],
+	tasks: [{
+		uid: "b71c19bc",
+		type: "item",
+		items: [{
+			item: "embers:cinder_plinth"
+		}]
+	}],
+	rewards: [{
+		uid: "d8f3747b",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

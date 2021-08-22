@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	dependencies: [
+		"fd0131dc"
+	],
+	tasks: [{
+		uid: "8ba71cef",
+		type: "item",
+		items: [{
+			item: "steamworld:miner_essen"
+		}]
+	}],
+	rewards: [{
+		uid: "a8884194",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

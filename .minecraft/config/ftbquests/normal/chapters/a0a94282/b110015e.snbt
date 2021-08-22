@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -2.5d,
+	dependencies: [
+		"dda9b2ce"
+	],
+	tasks: [{
+		uid: "10faf818",
+		type: "item",
+		items: [{
+			item: "enderio:block_transceiver"
+		}]
+	}],
+	rewards: [{
+		uid: "99465015",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

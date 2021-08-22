@@ -1,0 +1,16 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "ba77d7f4",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:centrifuge_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "eb21515a",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

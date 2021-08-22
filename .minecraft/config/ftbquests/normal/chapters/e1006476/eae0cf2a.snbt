@@ -1,0 +1,20 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	description: "{three.9}",
+	dependencies: [
+		"3eb4d2c9"
+	],
+	tasks: [{
+		uid: "02615412",
+		type: "item",
+		items: [{
+			item: "lightningcraft:ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "e9477609",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

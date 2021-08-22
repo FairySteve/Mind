@@ -1,0 +1,269 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/mind/bg.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -146
+  action = movebutton
+  y = 28
+}
+
+customization {
+  identifier = %id=400322%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = resources/mind/none.png
+  backgroundnormal = resources/mind/none.png
+}
+
+customization {
+  identifier = %id=400322%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -145
+  action = movebutton
+  y = 66
+}
+
+customization {
+  identifier = %id=400382%
+  width = 173
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = resources/mind/none.png
+  backgroundnormal = resources/mind/none.png
+}
+
+customization {
+  identifier = %id=400382%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -146
+  action = movebutton
+  y = 86
+}
+
+customization {
+  identifier = %id=502382%
+  width = 174
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = resources/mind/none.png
+  backgroundnormal = resources/mind/none.png
+}
+
+customization {
+  identifier = %id=502382%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -147
+  action = movebutton
+  y = 9
+}
+
+customization {
+  identifier = %id=400298%
+  width = 175
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = resources/mind/none.png
+  backgroundnormal = resources/mind/none.png
+}
+
+customization {
+  identifier = %id=400298%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -147
+  action = movebutton
+  y = 45
+}
+
+customization {
+  identifier = %id=400346%
+  width = 175
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = resources/mind/none.png
+  backgroundnormal = resources/mind/none.png
+}
+
+customization {
+  identifier = %id=400346%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  delayappearanceseconds = 1.0
+  path = resources/mind/mind.png
+  fadein = true
+  fadeinspeed = 2.0
+  x = -133
+  width = 154
+  actionid = fbac2281-165e-4a23-852a-1e683964d9b41629429735080
+  action = addtexture
+  y = -124
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 294
+}
+
+customization {
+  orientation = bottom-right
+  delayappearanceseconds = 2.0
+  buttonaction = openlink
+  backgroundhovered = resources/mind/afdian.png
+  description = What you sponsor is only original content !
+  label = 
+  fadein = true
+  fadeinspeed = 1.0
+  x = -114
+  width = 114
+  actionid = b95d6b2f-6fa1-4917-b47d-37f1af0146261629461029903
+  action = addbutton
+  y = -56
+  delayappearance = true
+  backgroundnormal = resources/mind/afdian.png
+  value = https://afdian.net/@Jack_471339359
+  delayappearanceeverytime = false
+  height = 43
+}
+
+customization {
+  orientation = bottom-right
+  delayappearanceseconds = 2.0
+  buttonaction = openlink
+  backgroundhovered = resources/mind/github.png
+  label = 
+  fadein = true
+  fadeinspeed = 1.0
+  x = -43
+  width = 38
+  actionid = 3752d7f9-cca3-41f0-804f-dc8c06151f0f1629461029903
+  action = addbutton
+  y = -96
+  delayappearance = true
+  backgroundnormal = resources/mind/github.png
+  value = https://github.com/FairySteve/Mind
+  delayappearanceeverytime = false
+  height = 38
+}
+
+customization {
+  orientation = bottom-right
+  delayappearanceseconds = 3.0
+  buttonaction = openlink
+  backgroundhovered = resources/mind/qq.png
+  label = 
+  fadein = true
+  fadeinspeed = 1.0
+  x = -93
+  width = 38
+  actionid = aceb5a27-dbeb-48dd-9ef5-fe27de4ee4ff1629461029903
+  action = addbutton
+  y = -96
+  delayappearance = true
+  backgroundnormal = resources/mind/qq.png
+  value = https://jq.qq.com/?_wv=1027"&"k=uKALHtJz
+  delayappearanceeverytime = false
+  height = 38
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 0
+  actionid = c81ca3d4-a8ca-498d-b190-0b3aebf2ad101629460912412
+  action = addtext
+  y = -7
+  scale = 1.0
+  alignment = left
+  value = Mind-v0.2.0
+}
+

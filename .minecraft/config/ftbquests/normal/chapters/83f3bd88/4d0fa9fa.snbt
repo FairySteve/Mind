@@ -1,0 +1,32 @@
+{
+	title: "{shop.6}",
+	icon: "storagedrawers:personal_key",
+	x: -2.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "df9a95ba",
+		type: "item",
+		items: [{
+			item: "mind:mind"
+		}],
+		count: 150L,
+		consume_items: true
+	},
+	{
+		uid: "cc8569d8",
+		type: "item",
+		title: "{shop.6.1}",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "dakimakuramod:tile.dakimakura",
+			tag: {
+				dakiDirName: "Villager",
+				dakiPackName: "Andrew's Vanilla Mobs"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	dependencies: [
+		"3b1f2dce"
+	],
+	tasks: [{
+		uid: "248d9831",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}]
+	}],
+	rewards: [{
+		uid: "cb7caba4",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

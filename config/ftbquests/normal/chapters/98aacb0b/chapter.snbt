@@ -1,7 +1,0 @@
-{
-	title: "Mind_Zero",
-	icon: "mind:zero_o",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "rsquare"
-}

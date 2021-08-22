@@ -1,0 +1,20 @@
+{
+	x: -14.0d,
+	y: -22.0d,
+	description: "{zero.2}",
+	dependencies: [
+		"ad91e8a3"
+	],
+	tasks: [{
+		uid: "a60ac2af",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "662e5417",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

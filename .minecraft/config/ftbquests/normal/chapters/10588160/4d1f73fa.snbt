@@ -1,0 +1,43 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	dependencies: [
+		"d8cbc797",
+		"3d6aa25f"
+	],
+	tasks: [{
+		uid: "0a098640",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:overworld"
+			}
+		}]
+	},
+	{
+		uid: "2681d61e",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:end"
+			}
+		}]
+	},
+	{
+		uid: "90285b0e",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:nether"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bacc08bc",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

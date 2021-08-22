@@ -1,0 +1,20 @@
+{
+	x: -14.0d,
+	y: -21.0d,
+	description: "{zero.4}",
+	dependencies: [
+		"86aa8cf0"
+	],
+	tasks: [{
+		uid: "68cde64b",
+		type: "item",
+		items: [{
+			item: "skyresources:heavysnowball"
+		}]
+	}],
+	rewards: [{
+		uid: "843bd780",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

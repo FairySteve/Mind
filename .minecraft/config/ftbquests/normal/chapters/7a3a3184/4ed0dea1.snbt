@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "347510d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "draconicadditions:chaotic_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9784dcfc",
+		type: "choice",
+		team_reward: true,
+		table: 0
+	}]
+}

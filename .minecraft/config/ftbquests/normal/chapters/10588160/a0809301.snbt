@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: 4.5d,
+	dependencies: [
+		"1345f7e2"
+	],
+	tasks: [{
+		uid: "4589900f",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}]
+	},
+	{
+		uid: "368a7924",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}]
+	}],
+	rewards: [{
+		uid: "2919e56f",
+		type: "item",
+		item: "mind:mind"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -17.0d,
+	y: -17.0d,
+	text: [
+		"{zero.20}"
+	],
+	dependencies: [
+		"e80d2769"
+	],
+	tasks: [{
+		uid: "dcaafc6b",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_pebble"
+		}]
+	}],
+	rewards: [{
+		uid: "e6d7dcf2",
+		type: "item",
+		item: "mind:mind"
+	}]
+}
