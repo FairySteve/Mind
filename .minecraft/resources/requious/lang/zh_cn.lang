@@ -28,3 +28,8 @@ requious.jei.recipe.plastic_processing=塑料加工机
 requious.jei.recipe.plastic_solidification=塑料凝固机
 requious.jei.recipe.diamond_purifier=钻石提纯机
 requious.jei.recipe.melter=熔炼炉
+
+requious.diamond_purifier=钻石提纯机
+requious.plastic_solidification=塑料凝固机
+requious.plastic_processing=塑料加工机
+requious.melter=熔炼炉

@@ -28,3 +28,8 @@ requious.jei.recipe.plastic_processing=Plastic Processing
 requious.jei.recipe.plastic_solidification=Plastic Solidification
 requious.jei.recipe.diamond_purifier=Diamond Purifier
 requious.jei.recipe.melter=Melter
+
+requious.diamond_purifier=Diamond Purifier
+requious.plastic_solidification=Plastic Solidification
+requious.plastic_processing=Plastic Processing
+requious.melter=Melter
