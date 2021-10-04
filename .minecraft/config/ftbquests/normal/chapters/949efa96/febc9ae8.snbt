@@ -1,0 +1,23 @@
+{
+	title: "Kikoku",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {
+				AS_Amulet_HolderLeast: -5763676746657747837L,
+				AS_Amulet_HolderMost: 3289889264098164220L
+			}
+		},
+		id: "extrautils2:lawsword"
+	},
+	x: 2.0d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "fec3504e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
+		}],
+		count: 500L
+	}]
+}

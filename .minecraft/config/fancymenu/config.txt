@@ -54,7 +54,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'MIND';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'false';
 

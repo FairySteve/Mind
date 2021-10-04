@@ -88,3 +88,5 @@ recipes.addShaped(<deepresonance:generator>,
 [[<deepresonance:dense_obsidian>, <deepresonance:resonating_block>, <deepresonance:dense_obsidian>], 
 [<deepresonance:resonating_block>, <actuallyadditions:block_heat_collector>, <deepresonance:resonating_block>], 
 [<deepresonance:dense_obsidian>, <deepresonance:resonating_block>, <deepresonance:dense_obsidian>]]);
+recipes.addHiddenShapeless("mix_dust",<contenttweaker:mix_dust>*2,
+    [<mind:draconium_paint_ball>,<mind:draconium_paint_ball>,<mind:gallium>]);

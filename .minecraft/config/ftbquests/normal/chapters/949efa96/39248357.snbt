@@ -1,0 +1,20 @@
+{
+	title: "{tile.empowerer_chamber.name}",
+	icon: "chambers:empowerer_chamber",
+	x: -0.5d,
+	y: -0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "c876f023",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "62927dec",
+		type: "item",
+		item: "chambers:empowerer_chamber"
+	}]
+}

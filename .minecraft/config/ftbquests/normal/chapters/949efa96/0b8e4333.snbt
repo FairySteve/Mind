@@ -1,0 +1,20 @@
+{
+	title: "{tile.enchant_chamber.name}",
+	icon: "chambers:enchant_chamber",
+	x: 3.5d,
+	y: -0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "80b58806",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "2bb06885",
+		type: "item",
+		item: "chambers:enchant_chamber"
+	}]
+}

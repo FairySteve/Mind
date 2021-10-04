@@ -10,3 +10,5 @@
 <researchtable:table>.addTooltip(format.green(game.localize("mind.tips8")));
 <botanicadds:dreamrock>.addTooltip(format.green(game.localize("mind.tips9")));
 <botanicadds:elven_lapis_block>.addTooltip(format.green(game.localize("mind.tips10")));
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ancient_sky_gateway"}).addTooltip(format.green(game.localize("mind.tips11")));
+<steamworld:block_obilisk>.addTooltip(format.red(game.localize("mind.tips12")));

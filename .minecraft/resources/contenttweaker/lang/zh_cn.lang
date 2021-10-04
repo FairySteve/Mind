@@ -9,10 +9,14 @@ fluid.mind_pure_sodium_gallinate_solution=净镓酸钠液
 fluid.mind_fuild_zinc=熔融锌
 fluid.mind_draconium=熔融龙
 fluid.mind_le=液体LE
-machine.crafttweaker:plastic_processing=塑料加工机
-machine.crafttweaker:plastic_solidification=塑料凝固机
-machine.crafttweaker:diamond_purifier=钻石提纯机
-machine.crafttweaker:melter=熔炼炉
+fluid.mind_sky=天空液
+item.contenttweaker.random.name=R A N D O M
+item.contenttweaker.mix_dust.name=混龙镓粉
+
+//machine.crafttweaker:plastic_processing=塑料加工机
+//machine.crafttweaker:plastic_solidification=塑料凝固机
+//machine.crafttweaker:diamond_purifier=钻石提纯机
+//machine.crafttweaker:melter=熔炼炉
 
 modularmachinery.fluid_sieve=流体筛子
 modularmachinery.rock_crusher=碎石机
@@ -32,3 +36,4 @@ modularmachinery.shiningstar_synthesis_platform=闪耀星辉合成台
 modularmachinery.turbulence_generator=踹流发电机
 modularmachinery.singularity_compressor=奇点压缩机
 modularmachinery.singularity_replicator=奇点复制机
+modularmachinery.ancient_sky_gateway=古老的天空交互装置

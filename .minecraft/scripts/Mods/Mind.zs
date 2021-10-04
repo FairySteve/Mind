@@ -6,6 +6,9 @@ import crafttweaker.events.IEventManager;
 import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.block.IBlock;
 import mods.ctutils.utils.Math;
+import crafttweaker.data.IData;
+import crafttweaker.recipes.IRecipeAction;
+import crafttweaker.recipes.IRecipeFunction;
 
 //remove OD
 recipes.remove(<ore:plankWood>);
@@ -300,7 +303,14 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
 });
 recipes.addShapeless(<mind:one>,
 [<mind:zero_o>,<minecraft:ender_pearl>,<minecraft:rotten_flesh>,
-<minecraft:string>,<minecraft:spider_eye>,<minecraft:bone>]);
+<minecraft:string>,<minecraft:spider_eye>,<minecraft:bone>],
+function(out,ins,cInfo){return out;} as IRecipeFunction,
+function(out,cInfo,player){
+    var iData as IData = {PlayerPersisted: {one : 0}} + player.data;
+    if (iData.PlayerPersisted.one == 0) {
+        var iData1 = {PlayerPersisted: {one : iData.PlayerPersisted.one.asInt() + 1}} as IData;
+        player.update(iData1);
+    }} as IRecipeAction);
 recipes.addShaped(<mind:three>, 
 [[null, <appliedenergistics2:material:45>, null],
 [<appliedenergistics2:material:45>, <mind:two>, <appliedenergistics2:material:45>],

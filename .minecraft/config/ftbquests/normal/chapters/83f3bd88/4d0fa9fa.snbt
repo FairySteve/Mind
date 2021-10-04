@@ -9,7 +9,7 @@
 		items: [{
 			item: "mind:mind"
 		}],
-		count: 150L,
+		count: 130L,
 		consume_items: true
 	},
 	{
@@ -28,5 +28,14 @@
 		}],
 		consume_items: true,
 		ignore_damage: true
+	},
+	{
+		uid: "32f1fe35",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
+		}],
+		count: 64L,
+		consume_items: true
 	}]
 }

@@ -1,0 +1,20 @@
+{
+	title: "{tile.fusion_chamber.name}",
+	icon: "chambers:fusion_chamber",
+	x: 4.5d,
+	y: -0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "269a310d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
+		}],
+		count: 320L
+	}],
+	rewards: [{
+		uid: "b8c8a94d",
+		type: "item",
+		item: "chambers:fusion_chamber"
+	}]
+}

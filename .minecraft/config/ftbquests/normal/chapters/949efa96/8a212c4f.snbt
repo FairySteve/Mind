@@ -1,0 +1,33 @@
+{
+	title: "B O O K",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:thaumonomicon",
+		Damage: 1s
+	},
+	x: 2.0d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "23820490",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "203f9a91",
+		type: "random",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		},
+		table: 6
+	}]
+}

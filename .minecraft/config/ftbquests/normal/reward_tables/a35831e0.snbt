@@ -1,0 +1,23 @@
+{
+	title: "thaumcraft",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		},
+		weight: 600
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		},
+		weight: 20
+	}]
+}

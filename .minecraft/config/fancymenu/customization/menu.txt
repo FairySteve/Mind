@@ -205,7 +205,7 @@ customization {
   fadeinspeed = 1.0
   x = -114
   width = 114
-  actionid = b95d6b2f-6fa1-4917-b47d-37f1af0146261629461029903
+  actionid = 80d4651c-3000-4ac3-98e9-d4c96484b1001633300638028
   action = addbutton
   y = -56
   delayappearance = true
@@ -225,7 +225,7 @@ customization {
   fadeinspeed = 1.0
   x = -43
   width = 38
-  actionid = 3752d7f9-cca3-41f0-804f-dc8c06151f0f1629461029903
+  actionid = 270b6109-0e28-493c-ad51-35ebfa9bce1b1633300638035
   action = addbutton
   y = -96
   delayappearance = true
@@ -237,7 +237,7 @@ customization {
 
 customization {
   orientation = bottom-right
-  delayappearanceseconds = 3.0
+  delayappearanceseconds = 2.0
   buttonaction = openlink
   backgroundhovered = resources/mind/qq.png
   label = 
@@ -245,7 +245,7 @@ customization {
   fadeinspeed = 1.0
   x = -93
   width = 38
-  actionid = aceb5a27-dbeb-48dd-9ef5-fe27de4ee4ff1629461029903
+  actionid = 3e6937c1-9729-4ac5-ba70-59550598fc3d1633300638036
   action = addbutton
   y = -96
   delayappearance = true
@@ -264,6 +264,6 @@ customization {
   y = -7
   scale = 1.0
   alignment = left
-  value = Mind-v0.2.0
+  value = Mind-v0.3.0
 }
 

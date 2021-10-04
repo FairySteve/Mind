@@ -1,5 +1,4 @@
 {
-	title: "古老的天空",
 	x: -3.5d,
 	y: -1.5d,
 	dependencies: [
@@ -7,9 +6,14 @@
 		"d4af2caa"
 	],
 	tasks: [{
-		uid: "62fface1",
-		type: "dimension",
-		dim: 38620
+		uid: "edff37e5",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:ancient_sky_gateway"
+			}
+		}]
 	}],
 	rewards: [{
 		uid: "10ec1873",

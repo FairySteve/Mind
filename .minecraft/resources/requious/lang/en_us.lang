@@ -22,12 +22,15 @@ tile.plastic_processing.name=Plastic Processing
 tile.plastic_solidification.name=Plastic Solidification
 tile.diamond_purifier.name=Diamond Purifier
 tile.melter.name=Melter
+tile.assembler.name=assembler
+tile.laser.name=Laser transmitter
 
 //JEI
 requious.jei.recipe.plastic_processing=Plastic Processing
 requious.jei.recipe.plastic_solidification=Plastic Solidification
 requious.jei.recipe.diamond_purifier=Diamond Purifier
 requious.jei.recipe.melter=Melter
+requious.jei.recipe.assembler=assembler
 
 requious.diamond_purifier=Diamond Purifier
 requious.plastic_solidification=Plastic Solidification

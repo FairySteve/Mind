@@ -1,0 +1,19 @@
+{
+	title: "{tile.compost_chamber.name}",
+	icon: "chambers:compost_chamber",
+	x: 0.5d,
+	y: -0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "08099b1d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
+		}]
+	}],
+	rewards: [{
+		uid: "92af04a8",
+		type: "item",
+		item: "chambers:compost_chamber"
+	}]
+}

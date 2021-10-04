@@ -42,3 +42,8 @@ recipes.addShapeless(<actuallyadditions:block_fluid_collector>,
 [<extrautils2:scanner>,<minecraft:bucket>,<minecraft:bucket>]);
 recipes.addShapeless(<actuallyadditions:block_fluid_placer>,
 [<actuallyadditions:block_fluid_collector>]);
+recipes.addShaped(<theaurorian:moonstoneingot>,[
+    [<ore:gemMoon>,<ore:gemMoon>,<ore:gemMoon>],
+    [<ore:gemMoon>,<ore:ingotUnstable>,<ore:gemMoon>],
+    [<ore:gemMoon>,<ore:gemMoon>,<ore:gemMoon>]
+]);

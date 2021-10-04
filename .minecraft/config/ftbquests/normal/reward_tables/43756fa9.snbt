@@ -99,6 +99,24 @@
 			},
 			id: "extrautils2:itemcreativebuilderswand"
 		}
+	},
+	{
+		item: "lightningcraft:lightning_cell 1 3"
+	},
+	{
+		item: "storagedrawers:upgrade_creative"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 25000000
+			},
+			Damage: 32000s
+		}
 	}],
 	loot_crate: {
 		string_id: "_",

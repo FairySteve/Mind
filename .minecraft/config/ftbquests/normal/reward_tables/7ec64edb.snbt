@@ -1,0 +1,33 @@
+{
+	title: "cry",
+	loot_size: 1,
+	rewards: [{
+		item: "environmentaltech:litherite_crystal",
+		count: 10,
+		weight: 6
+	},
+	{
+		item: "environmentaltech:erodium_crystal",
+		count: 10,
+		weight: 5
+	},
+	{
+		item: "environmentaltech:kyronite_crystal",
+		count: 10,
+		weight: 4
+	},
+	{
+		item: "environmentaltech:pladium_crystal",
+		count: 10,
+		weight: 3
+	},
+	{
+		item: "environmentaltech:ionite_crystal",
+		count: 10,
+		weight: 3
+	},
+	{
+		item: "environmentaltech:aethium_crystal",
+		count: 10
+	}]
+}

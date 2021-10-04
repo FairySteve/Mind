@@ -13,7 +13,6 @@ var fluid = SlotVisual.create(1,3).addPart("requious:textures/gui/assembly_big.p
 
 melter.setFluidSlot(5,1, ComponentFace.all(),20000)
 				.setAccess(false, true)
-				.allowBucket(false,true)
 				.setBackground(fluid)
 				.setGroup("output");
 melter.setItemSlot(3,2,ComponentFace.all(),64)
@@ -24,7 +23,6 @@ melter.setDurationSlot(4,2)
 				.setVisual(SlotVisual.arrowRight())
                 .setGroup("time");
 melter.setEnergySlot(8,1,ComponentFace.all(),2000000)
-				.allowBattery(true,true)
 				.setAccess(true,false)
 				.setBackground(energySlot)
 				.setGroup("power");

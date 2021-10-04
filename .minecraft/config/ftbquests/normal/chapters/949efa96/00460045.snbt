@@ -1,0 +1,20 @@
+{
+	title: "{tile.atom_chamber.name}",
+	icon: "chambers:atom_chamber",
+	x: -1.5d,
+	y: -0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "b431bc60",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "a3159b1c",
+		type: "item",
+		item: "chambers:atom_chamber"
+	}]
+}

@@ -1,0 +1,212 @@
+{
+	title: "N U L L ",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "_"
+		}
+	},
+	x: 3.5d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "b0f3de82",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
+		}],
+		count: 4096L
+	}],
+	rewards: [{
+		uid: "c110a4b7",
+		type: "random",
+		icon: "minecraft:chest",
+		table: 5
+	},
+	{
+		uid: "3e57edcc",
+		type: "item",
+		item: {
+			id: "minecraft:chest",
+			tag: {
+				BlockEntityTag: {
+					ForgeCaps: {
+						"nuclearcraft:capability_default_radiation_resistance": {
+							radiationResistance: 0.0d
+						}
+					},
+					Items: [{
+						Slot: 0b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 6b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 7b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 8b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 9b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 10b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 11b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 12b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 13b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 14b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 15b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 16b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 17b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 18b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 19b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 20b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 21b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 22b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 23b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 24b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 25b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					},
+					{
+						Slot: 26b,
+						id: "contenttweaker:random",
+						Count: 64b,
+						Damage: 0s
+					}],
+					id: "minecraft:chest",
+					Lock: ""
+				},
+				display: {
+					Lore: [
+						"(+NBT)"
+					],
+					Name: "NBT Chest"
+				}
+			}
+		}
+	}]
+}

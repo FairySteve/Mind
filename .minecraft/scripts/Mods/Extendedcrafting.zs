@@ -841,6 +841,26 @@ mods.extendedcrafting.TableCrafting.addShaped(1, <modularmachinery:blockfluidout
 	[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:2>, <modularmachinery:itemmodularium>], 
 	[null, <ore:hopper>, null]
 ]);
+mods.extendedcrafting.TableCrafting.addShaped(1, <modularmachinery:blockfluidoutputhatch:4>, [
+	[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], 
+	[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:3>, <modularmachinery:itemmodularium>], 
+	[null, <ore:hopper>, null]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(1, <modularmachinery:blockfluidoutputhatch:5>, [
+	[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], 
+	[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:4>, <modularmachinery:itemmodularium>], 
+	[null, <ore:hopper>, null]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(1, <modularmachinery:blockfluidoutputhatch:6>, [
+	[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], 
+	[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:5>, <modularmachinery:itemmodularium>], 
+	[null, <ore:hopper>, null]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(1, <modularmachinery:blockfluidoutputhatch:7>, [
+	[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], 
+	[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:6>, <modularmachinery:itemmodularium>], 
+	[null, <ore:hopper>, null]
+]);
 mods.extendedcrafting.TableCrafting.addShaped(1, <requious:melter>, [
 	[<ore:blockGlass>, <embers:dust_ember>, <ore:blockGlass>], 
 	[<ore:blockGlass>, <embers:mech_core>, <ore:blockGlass>], 

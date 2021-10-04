@@ -1,0 +1,245 @@
+{
+	title: "NULL抽奖箱表",
+	loot_size: 1,
+	rewards: [{
+		item: "thermalfoundation:upgrade 1 256"
+	},
+	{
+		item: "draconicevolution:creative_rf_source"
+	},
+	{
+		item: "draconicevolution:draconium_capacitor 1 2"
+	},
+	{
+		item: "draconicevolution:creative_exchanger"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 25000000
+			},
+			Damage: 32000s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 25000000
+			},
+			Damage: 32000s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:reservoir",
+			Damage: 32000s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 32000s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 32000s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:itemcreativedestructionwand"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:itemcreativebuilderswand"
+		}
+	},
+	{
+		item: "extrautils2:passivegenerator 1 6"
+	},
+	{
+		item: "extrautils2:drum 1 4"
+	},
+	{
+		item: "extrautils2:spike_creative"
+	},
+	{
+		item: "extrautils2:creativechest"
+	},
+	{
+		item: "extrautils2:creativeenergy"
+	},
+	{
+		item: "extrautils2:creativeharvest"
+	},
+	{
+		item: "randomthings:creativeplayerinterface"
+	},
+	{
+		item: "randomthings:spectrecoil_genesis"
+	},
+	{
+		item: "appliedenergistics2:creative_energy_cell"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {},
+			Damage: 1s
+		}
+	},
+	{
+		item: "bigreactors:reactorcreativecoolantport"
+	},
+	{
+		item: "storagedrawers:upgrade_creative 1 1"
+	},
+	{
+		item: "immersiveengineering:metal_device0 1 3"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:basicblock",
+			tag: {
+				tier: 4
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 4
+			},
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:energycube",
+			tag: {
+				tier: 4,
+				mekData: {
+					energyStored: 1.7976931348623157E308d
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:gastank",
+			tag: {
+				tier: 4
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "integrateddynamics:creative_energy_battery"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wct:wct_creative"
+		}
+	},
+	{
+		item: "embers:creative_ember_source"
+	},
+	{
+		item: "lightningcraft:lightning_cell 1 3"
+	},
+	{
+		item: {
+			id: "minecraft:dirt",
+			tag: {
+				display: {
+					Name: "寂寞"
+				}
+			}
+		},
+		weight: 200
+	}]
+}

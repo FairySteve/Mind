@@ -13,17 +13,14 @@ var fluid = SlotVisual.create(1,3).addPart("requious:textures/gui/assembly_big.p
 
 diamond_purifier.setFluidSlot(1,1, ComponentFace.east(),20000)
 				.setAccess(true, false)
-				.allowBucket(true,true)
 				.setBackground(fluid)
 				.setGroup("input");
 diamond_purifier.setFluidSlot(2,1, ComponentFace.up(),20000)
 				.setAccess(true, false)
-				.allowBucket(true,true)
 				.setBackground(fluid)
 				.setGroup("input");
 diamond_purifier.setFluidSlot(3,1, ComponentFace.west(),20000)
 				.setAccess(true, false)
-				.allowBucket(true,true)
 				.setBackground(fluid)
 				.setGroup("input");
 diamond_purifier.setItemSlot(5,2,ComponentFace.all(),64)
@@ -34,7 +31,6 @@ diamond_purifier.setDurationSlot(4,2)
 				.setVisual(SlotVisual.arrowRight())
                 .setGroup("time");
 diamond_purifier.setEnergySlot(8,1,ComponentFace.all(),2000000)
-				.allowBattery(true,true)
 				.setAccess(true,false)
 				.setBackground(energySlot)
 				.setGroup("power");

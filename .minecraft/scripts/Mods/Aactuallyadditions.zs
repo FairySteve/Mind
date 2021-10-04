@@ -23,7 +23,7 @@ for i in 0 .. output.length{
     AtomicReconstructor.addRecipe(output[i], input[i], 1000);
 }
 
-Empowerer.addRecipe(<enderio:item_material:51>,<embers:dust_metallurgic>, <ore:dustLapis>, <enderio:item_material:48>, <ore:dustNetherQuartz>, <enderio:item_material:50>,  500, 100);
+Empowerer.addRecipe(<enderio:item_material:51>,<embers:dust_metallurgic>, <ore:dustLapis>, <enderio:item_material:48>, <ore:dustNetherQuartz>, <enderio:item_material:20>,  500, 100);
 
 val removeCrusher as IItemStack[] = [
 <actuallyadditions:item_dust:5>,<actuallyadditions:item_dust:3>,<minecraft:emerald>,<minecraft:diamond>,<mekanism:otherdust>,<thermalfoundation:material:1>,<thermalfoundation:material>,<thermalfoundation:material:70>,

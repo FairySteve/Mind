@@ -38,24 +38,28 @@ addFluidInput(<liquid:mind_crystal> *10000).
 addEnergyPerTickInput(23018149).
 addItemOutput(<extendedcrafting:singularity_custom:2>).
 build();
+/*
 RecipeBuilder.newBuilder("singularity_compressor_4", "singularity_compressor",10000).
 addItemInput(<minecraft:clay_ball>*1024).
 addFluidInput(<liquid:mind_crystal> *10000).
 addEnergyPerTickInput(23018149).
 addItemOutput(<extendedcrafting:singularity_custom:2>).
 build();
+*/
 RecipeBuilder.newBuilder("singularity_compressor_5", "singularity_compressor",10000).
 addItemInput(<minecraft:flint>*1024).
 addFluidInput(<liquid:mind_crystal> *10000).
 addEnergyPerTickInput(23018149).
 addItemOutput(<extendedcrafting:singularity_custom:1>).
 build();
+/*
 RecipeBuilder.newBuilder("singularity_compressor_6", "singularity_compressor",10000).
 addItemInput(<magneticraft:storage_blocks:2>*1024).
 addFluidInput(<liquid:mind_crystal> *10000).
 addEnergyPerTickInput(23018149).
 addItemOutput(<extendedcrafting:singularity:65>).
 build();
+*/
 RecipeBuilder.newBuilder("singularity_compressor_7", "singularity_compressor",10000).
 addItemInput(<thermalfoundation:storage:8>*1024).
 addFluidInput(<liquid:mind_crystal> *10000).
@@ -842,6 +846,11 @@ addFluidInput(<liquid:helium>*32000).
 addFluidInput(<liquid:antimony>*10000).
 addFluidInput(<liquid:oil_dwarf>*10000).
 addEnergyPerTickOutput(11509074).
+build();
+RecipeBuilder.newBuilder("ancient_sky_gateway", "ancient_sky_gateway",200).
+addItemInput(<extrautils2:compressedcobblestone>*64).
+addFluidInput(<liquid:mind_sky>*10000).
+addItemOutput(<steamworld:block_decorative:2>*256).
 build();
 recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:rock_crusher"}),
 [<minecraft:paper>,<skyresources:diamondgrinder>]);

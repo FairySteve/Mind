@@ -1,0 +1,23 @@
+{
+	title: "Lux Saber",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "extrautils2:luxsaber",
+		tag: {
+			Energy: 40000
+		}
+	},
+	x: 0.5d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "a7fdc516",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
+		}],
+		consume_items: true
+	}]
+}

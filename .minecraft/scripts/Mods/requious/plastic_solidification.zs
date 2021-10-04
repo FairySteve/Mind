@@ -13,7 +13,6 @@ var fluid = SlotVisual.create(1,3).addPart("requious:textures/gui/assembly_big.p
 
 plastic_solidification.setFluidSlot(2,1, ComponentFace.all(),20000)
 				.setAccess(true, false)
-				.allowBucket(true,true)
 				.setBackground(fluid)
 				.setGroup("input");
 plastic_solidification.setItemSlot(3,2,ComponentFace.all(),64)
@@ -27,7 +26,6 @@ plastic_solidification.setDurationSlot(4,2)
 				.setVisual(SlotVisual.arrowRight())
                 .setGroup("time");
 plastic_solidification.setEnergySlot(8,1,ComponentFace.all(),2000000)
-				.allowBattery(true,true)
 				.setAccess(true,false)
 				.setUnit("fe")
 				.setBackground(energySlot)

@@ -1,6 +1,7 @@
 #priority 1000
 #loader contenttweaker 
 import scripts.grassUtils.CotUtils;
+import scripts.grassUtils.CotUtils.addNormalItem as Item;
 
 //灼沙
 CotUtils.addBlock("mind_heatsand", <blockmaterial:sand>, 2.5f, 40, <soundtype:sand>, 0, true, "shovel", 1);
@@ -22,3 +23,9 @@ CotUtils.addFluid("mind_blend_caminite", 0xc2baab, 1000, 100, 1000, 10, false);
 CotUtils.addFluid("mind_draconium", 0x8925d3, 1000, 100, 1000, 10, false);
 //液态LE能量
 CotUtils.addFluid("mind_le", 0xF8F8FF, 1000, 100, 1000, 10, false);
+//天空液
+CotUtils.addFluid("mind_sky", 0xc3ebfe, 1000, 100, 1000, 10, false);
+//random
+Item("random");
+//mix-dust
+Item("mix_dust");

@@ -16,3 +16,14 @@ melter.addMelterRecipes(<ore:ingotLead>.firstItem,<liquid:lead>*144,300,30000);
 melter.addMelterRecipes(<ore:ingotIron>.firstItem,<liquid:iron>*144,300,30000);
 melter.addMelterRecipes(<ore:ingotSilver>.firstItem,<liquid:silver>*144,300,30000);
 melter.addMelterRecipes(<ore:soulSand>.firstItem,<liquid:oil_soul>*10,300,30000);
+
+recipes.addShaped("sp",<requious:laser>,[
+    [null,<mekanism:machineblock2:15>,null],
+    [null,<mekanism:machineblock2:14>,null],
+    [<minecraft:iron_block>,<nuclearcraft:part:10>,<minecraft:iron_block>]
+]);
+recipes.addShaped("laser_machines",<requious:assembler>,[
+    [null,<actuallyadditions:block_atomic_reconstructor>,null],
+    [<minecraft:iron_block>,<nuclearcraft:part:10>,<minecraft:iron_block>],
+    [<minecraft:iron_block>,<minecraft:iron_block>,<minecraft:iron_block>]
+]);

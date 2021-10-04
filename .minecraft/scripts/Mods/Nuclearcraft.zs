@@ -24,6 +24,7 @@ infuser.addRecipe([<modularmachinery:blockenergyoutputhatch:1>, <liquid:plasma>*
 
 melter.addRecipe([<magneticraft:ingots:14>, <liquid:mind_fuild_zinc>*144, 200, 20000]);
 melter.addRecipe([<mind:draconium_paint_ball>, <liquid:mind_draconium>*144, 200, 20000]);
+melter.addRecipe([<naturesaura:sky_ingot>, <liquid:mind_sky>*250, 100, 40000]);
 melter.addRecipe([<mekanismgenerators:hohlraum>.withTag({mekData: {stored: {amount: 10, gasName: "fusionfuel"}}}), <liquid:mind_gallium_solution>*144, 200, 100000]);
 
 //聚变

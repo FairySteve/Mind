@@ -1,0 +1,399 @@
+{
+	"registryname":"ancient_sky_gateway",
+	"localizedname":"mind.ancient_sky_gateway.name",
+	"color":"cae4ee",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus@6",
+				"modularmachinery:blockinputbus@5",
+				"modularmachinery:blockinputbus@4",
+				"modularmachinery:blockinputbus@3",
+				"modularmachinery:blockinputbus@2",
+				"modularmachinery:blockinputbus@1",
+				"modularmachinery:blockinputbus@0",
+				"modularmachinery:blockoutputbus@6",
+				"modularmachinery:blockoutputbus@5",
+				"modularmachinery:blockoutputbus@4",
+				"modularmachinery:blockoutputbus@3",
+				"modularmachinery:blockoutputbus@2",
+				"modularmachinery:blockoutputbus@1",
+				"modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "steamworld:block_obilisk@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "steamworld:generic_machine@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+               	"modularmachinery:blockinputbus@6",
+				"modularmachinery:blockinputbus@5",
+				"modularmachinery:blockinputbus@4",
+				"modularmachinery:blockinputbus@3",
+				"modularmachinery:blockinputbus@2",
+				"modularmachinery:blockinputbus@1",
+				"modularmachinery:blockinputbus@0",
+				"modularmachinery:blockoutputbus@6",
+				"modularmachinery:blockoutputbus@5",
+				"modularmachinery:blockoutputbus@4",
+				"modularmachinery:blockoutputbus@3",
+				"modularmachinery:blockoutputbus@2",
+				"modularmachinery:blockoutputbus@1",
+				"modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@0",
+				"modularmachinery:blockfluidinputhatch@1",
+				"modularmachinery:blockfluidinputhatch@2",
+				"modularmachinery:blockfluidinputhatch@3",
+				"modularmachinery:blockfluidinputhatch@4",
+				"modularmachinery:blockfluidinputhatch@5",
+				"modularmachinery:blockfluidinputhatch@6",
+				"modularmachinery:blockfluidinputhatch@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "steamworld:block_obilisk@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "steamworld:block_obilisk@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "botania:quartztypemana@0"
+            ]
+        }
+    ]}

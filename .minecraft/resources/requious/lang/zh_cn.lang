@@ -22,12 +22,15 @@ tile.plastic_processing.name=塑料加工机
 tile.plastic_solidification.name=塑料凝固机
 tile.diamond_purifier.name=钻石提纯机
 tile.melter.name=熔炼炉
+tile.assembler.name=强激光转换装置
+tile.laser.name=镭射发射器
 
 //JEI
 requious.jei.recipe.plastic_processing=塑料加工机
 requious.jei.recipe.plastic_solidification=塑料凝固机
 requious.jei.recipe.diamond_purifier=钻石提纯机
 requious.jei.recipe.melter=熔炼炉
+requious.jei.recipe.assembler=强激光转换装置
 
 requious.diamond_purifier=钻石提纯机
 requious.plastic_solidification=塑料凝固机

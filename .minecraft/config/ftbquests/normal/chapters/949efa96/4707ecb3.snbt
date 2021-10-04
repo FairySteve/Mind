@@ -1,0 +1,20 @@
+{
+	title: "{tile.big_compact_chamber.name}",
+	icon: "chambers:big_compact_chamber",
+	x: 2.5d,
+	y: -0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "5df7d0e5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
+		}],
+		count: 7L
+	}],
+	rewards: [{
+		uid: "980efe6d",
+		type: "item",
+		item: "chambers:big_compact_chamber"
+	}]
+}

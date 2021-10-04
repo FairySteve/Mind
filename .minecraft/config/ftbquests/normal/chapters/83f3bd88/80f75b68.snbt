@@ -1,5 +1,11 @@
 {
 	title: "{shop.13}",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:dice"
+	},
 	x: -0.5d,
 	y: -1.5d,
 	tasks: [{
@@ -7,6 +13,15 @@
 		type: "item",
 		items: [{
 			item: "mind:mind"
+		}],
+		count: 200L,
+		consume_items: true
+	},
+	{
+		uid: "f5fadcc3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:random"
 		}],
 		count: 200L,
 		consume_items: true

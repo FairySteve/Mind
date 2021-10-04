@@ -107,3 +107,4 @@ for item in removepulverizer {
 Sawmill.addRecipe(<lightningcraft:wood_plank>*4, <lightningcraft:wood_log>, 1500);
 
 Crucible.addRecipe(<liquid:mana>*250, <thermalfoundation:material:1028>, 10000);
+Crucible.addRecipe(<liquid:mind_sky>*250, <naturesaura:sky_ingot>, 10000);
