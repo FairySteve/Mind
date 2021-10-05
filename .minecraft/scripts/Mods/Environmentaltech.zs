@@ -100,6 +100,7 @@ recipes.addShaped(<environmentaltech:photovoltaic_cell>,
 [<minecraft:lapis_block>, <minecraft:quartz_block>, <minecraft:lapis_block>],
 [null, <minecraft:lapis_block>, null]]);
 
+recipes.remove(<environmentaltech:solar_cont_4>);
 recipes.addShaped("solar_4",<environmentaltech:solar_cont_4>,[
     [cry[3],solar_cell[3],cry[3]],
     [solar_cell[3],solar_cont[2],solar_cell[3]],
@@ -119,6 +120,7 @@ recipes.addShaped("solar_4",<environmentaltech:solar_cont_4>,[
     }
 } as IRecipeAction);
 
+recipes.remove(<environmentaltech:solar_cont_5>);
 recipes.addShaped("solar_5",<environmentaltech:solar_cont_5>,[
     [cry[4],solar_cell[4],cry[4]],
     [solar_cell[4],solar_cont[3],solar_cell[4]],
@@ -138,6 +140,7 @@ recipes.addShaped("solar_5",<environmentaltech:solar_cont_5>,[
     }
 } as IRecipeAction);
 
+recipes.remove(<environmentaltech:solar_cont_6>);
 recipes.addShaped("solar_6",<environmentaltech:solar_cont_6>,[
     [cry[5],solar_cell[5],cry[5]],
     [solar_cell[5],solar_cont[4],solar_cell[5]],
