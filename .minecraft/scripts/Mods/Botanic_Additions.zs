@@ -1,5 +1,7 @@
 #priority 100
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShapeless(<mind:gaiasteel_nugget>*9,
 [<botanicadds:gaiasteel_ingot>]);
 recipes.addShaped(<botanicadds:pool_dreaming>,
@@ -8,3 +10,4 @@ recipes.addShaped(<botanicadds:pool_dreaming>,
 [<mind:gaiasteel_nugget>,<mind:gaiasteel_nugget>, <mind:gaiasteel_nugget>]]);
 mods.botanicadds.GaiaPlate.add(<botania:manaresource:4>, 500000,
 [<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>]);
+}

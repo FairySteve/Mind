@@ -1,6 +1,8 @@
 #priority 100
 import mods.botaniatweaks.Agglomeration;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 Agglomeration.removeRecipe(<botania:manaresource:4>,
 [<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>]);
 
@@ -24,3 +26,4 @@ Agglomeration.addRecipe(<mind:magic_light_rune>,
 2000000,0xA439FB,0xFF6600,
 <astralsorcery:blockmarble:5>,<botania:shimmerrock>,<astralsorcery:blockblackmarble>,
 null,null,<astralsorcery:blockmarble>);
+}

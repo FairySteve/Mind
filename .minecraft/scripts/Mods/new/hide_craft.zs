@@ -2,7 +2,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.recipes.IRecipeFunction;
 import crafttweaker.recipes.IRecipeAction;
 import crafttweaker.data.IData;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 val paxel as IItemStack[] = [
 <minecraft:stone_pickaxe>.withTag({ench: [{lvl: 3, id: 32 as short}], Unbreakable: 1 as byte}),
 <minecraft:iron_pickaxe>.withTag({ench: [{lvl: 3 as short, id: 32 as short}, {lvl: 1 as short, id: 24 as short}, {lvl: 3, id: 16 as short}], Unbreakable: 1 as byte}),
@@ -120,3 +122,4 @@ function(out, ins, cInfo){
         return out;
     }return null;} as IRecipeFunction,
 function(out, cInfo, player){} as IRecipeAction);
+}

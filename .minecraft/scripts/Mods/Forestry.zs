@@ -2,7 +2,9 @@
 import crafttweaker.item.IItemStack;
 import mods.forestry.ThermionicFabricator;//热电子加工机
 import mods.forestry.Carpenter;//木工机
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 ThermionicFabricator.removeCast(<forestry:flexible_casing>);
 
 val BannedCarpenter as IItemStack[] = [
@@ -18,4 +20,4 @@ recipes.addShaped(<forestry:wood_pile>,
 [<ore:logWood>, <ore:logWood>, <ore:logWood>],
 [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 recipes.addShapeless(<forestry:carpenter>, [<forestry:squeezer>]);
-
+}

@@ -3,6 +3,9 @@ import mods.thaumcraft.ArcaneWorkbench;//奥术工作台
 import mods.thaumcraft.SalisMundus;//世界盐
 import mods.thaumcraft.Crucible;//坩埚
 import mods.thaumcraft.Infusion;//注魔
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
+
+if(Loader){
 ArcaneWorkbench.registerShapedRecipe("thaumonmeter", "", 20, 
 [<aspect:aer>,<aspect:terra>,<aspect:ignis>,<aspect:aqua>,<aspect:ordo>,<aspect:perditio>],
 <thaumcraft:thaumometer>, 
@@ -65,3 +68,4 @@ Infusion.registerRecipe("elytra", "", <minecraft:elytra>, 12,
 [<aspect:volatus>*1280], 
 <minecraft:leather_chestplate>, 
 [<draconicevolution:dragon_heart>,<extrautils2:chickenring:1>,<extrautils2:chickenring>,<darkutils:shulker_pearl>]);
+}

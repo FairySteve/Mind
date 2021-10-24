@@ -1,6 +1,8 @@
 #priority 100
 import crafttweaker.item.IItemStack;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 // 毕业物品
 mods.avaritia.ExtremeCrafting.addShaped("graduation_items", <mind:graduation_items> * 1, [[<mind:one>, <mind:zero_o>, <mind:zero_o>, <mind:zero_o>, <mind:zero_o>, <mind:zero_o>, <mind:zero_o>, <mind:zero_o>, <mind:nine>], [<mind:two>, <avaritia:infinity_helmet>, <avaritia:infinity_chestplate>, <avaritia:infinity_pants>, <avaritia:infinity_boots>, <avaritia:infinity_sword>, <avaritia:infinity_pickaxe>, <avaritia:infinity_bow>, <mind:eight>],[<mind:three>, <appliedenergistics2:material:47>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:singularity_ultimate>, <appliedenergistics2:material:47>, <mind:seven>],[<mind:four>, <appliedenergistics2:material:47>, <extendedcrafting:singularity_ultimate>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <extendedcrafting:singularity_ultimate>, <appliedenergistics2:material:47>, <mind:six>],[<mind:five>, <appliedenergistics2:material:47>, <extendedcrafting:singularity_ultimate>, <avaritia:endest_pearl>, <avaritia:resource:5>, <avaritia:endest_pearl>, <extendedcrafting:singularity_ultimate>, <appliedenergistics2:material:47>, <mind:five>],[<mind:six>, <appliedenergistics2:material:47>, <extendedcrafting:singularity_ultimate>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>, <extendedcrafting:singularity_ultimate>, <appliedenergistics2:material:47>, <mind:four>],[<mind:seven>, <appliedenergistics2:material:47>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:singularity_ultimate>, <appliedenergistics2:material:47>, <mind:three>],[<mind:eight>, <draconicadditions:chaotic_bow>, <draconicadditions:chaotic_staff_of_power>, <extrautils2:lawsword>, <draconicadditions:chaotic_boots>, <draconicadditions:chaotic_legs>, <draconicadditions:chaotic_chest>, <draconicadditions:chaotic_helm>, <mind:two>],[<mind:nine>, <mind:zero_o>, <mind:zero_o>, <mind:zero_o>, <mind:zero_o>, <mind:zero_o>, <mind:zero_o>, <mind:zero_o>, <mind:one>]]);
 // 无尽催化剂
@@ -22,4 +24,5 @@ val remove as IItemStack[] = [
 ];
 for item in remove {
     mods.avaritia.ExtremeCrafting.remove(item);
+}
 }

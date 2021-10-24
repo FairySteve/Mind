@@ -1,6 +1,8 @@
 #priority 100
 import mods.contenttweaker.Item;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 furnace.addRecipe(<deepresonance:resonating_ore>, <mind:resonating_paint_ball>, 1);
 recipes.addShapeless(<primal_tech:work_stump>,
 [<minecraft:log:1>,<minecraft:log:1>,<minecraft:log:1>,<minecraft:log:1>]);
@@ -90,3 +92,4 @@ recipes.addShaped(<deepresonance:generator>,
 [<deepresonance:dense_obsidian>, <deepresonance:resonating_block>, <deepresonance:dense_obsidian>]]);
 recipes.addHiddenShapeless("mix_dust",<contenttweaker:mix_dust>*2,
     [<mind:draconium_paint_ball>,<mind:draconium_paint_ball>,<mind:gallium>]);
+}

@@ -5,7 +5,9 @@ import mods.nuclearcraft.ingot_former;//金属成型机
 import mods.nuclearcraft.infuser;//流体注入器
 import mods.nuclearcraft.melter;//金属熔化机
 import mods.nuclearcraft.fusion;//聚变
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShaped(<nuclearcraft:cobblestone_generator>,
 [[null, null, null],
 [<magneticraft:water_generator>, <minecraft:cobblestone>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "lava", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte})],
@@ -58,3 +60,4 @@ fusion.addRecipe([
 <liquid:mind_gallium_solution>*288, <liquid:mind_gallium_solution>*288, 
 <liquid:mind_gallium_amalgam>*25,<liquid:mind_gallium_amalgam>*25,<liquid:mind_gallium_amalgam>*25,<liquid:mind_gallium_amalgam>*25,
 100.0, 80.0, 2000.0]);
+}

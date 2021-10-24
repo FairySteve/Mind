@@ -1,7 +1,9 @@
 #packmode explorer
 #priority 100
 import crafttweaker.item.IItemStack;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 mods.naturesaura.Offering.removeRecipe(<botania:pool:2>);
 mods.naturesaura.Offering.addRecipe("botania_pool_1",<immersiveengineering:metal_device0:4>.withTag({tank: {FluidName: "water", Amount: 12000}}),2,<minecraft:ghast_tear>,<botania:pool:2>);
 val paxel as IItemStack[] = [
@@ -65,3 +67,4 @@ recipes.addShaped("golf",golf,
 [[others[5], others[5], others[5]],
 [others[5],<lightningcraft:golf_club_gold>, others[5]],
 [others[5], others[5], others[5]]]);
+}

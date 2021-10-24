@@ -1,7 +1,9 @@
 import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 val wither_skeleton = LootTweaker.getTable("minecraft:entities/wither_skeleton");
 val wither_skeleton_main = wither_skeleton.getPool("main");
 wither_skeleton_main.removeEntry("minecraft:coal");
@@ -33,3 +35,4 @@ mind_5.addItemEntry(<mind:zero_o>, 20);
 val witch = LootTweaker.getTable("minecraft:entities/witch");
 val mind_6 = witch.addPool("mind_6", 0, 1, 0, 0);
 mind_6.addItemEntry(<mind:zero_o>, 20);
+}

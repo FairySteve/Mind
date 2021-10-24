@@ -3,7 +3,9 @@ import crafttweaker.item.IItemStack;
 import mods.actuallyadditions.AtomicReconstructor;//原子再构机
 import mods.actuallyadditions.Empowerer;//充能台
 import mods.actuallyadditions.Crusher;//磨粉机
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 val removeaa as IItemStack[] = [
     <actuallyadditions:block_crystal>,<actuallyadditions:block_crystal:1>,<actuallyadditions:block_crystal:2>,<actuallyadditions:block_crystal:3>,<actuallyadditions:block_crystal:4>,<actuallyadditions:block_crystal:5>,
     <actuallyadditions:item_crystal>,<actuallyadditions:item_crystal:1>,<actuallyadditions:item_crystal:2>,<actuallyadditions:item_crystal:3>,<actuallyadditions:item_crystal:4>,<actuallyadditions:item_crystal:5>
@@ -35,5 +37,5 @@ val removeCrusher as IItemStack[] = [
 for item in removeCrusher {
     Crusher.removeRecipe(item);
 }
-
+}
 

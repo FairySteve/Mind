@@ -1,7 +1,9 @@
 import mods.ResearchTable;
 import ResearchTable.Category;
 import ResearchTable.Builder;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 var mind = ResearchTable.addCategory(<minecraft:stone>);
 
 ResearchTable.builder("brushtower", mind)
@@ -215,3 +217,4 @@ ResearchTable.builder("brushtower", mind)
   .addCondition(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:singularity_replicator"}))
   .setRewardCommands("/testruin [materialball_processor] ~ ~ ~9")
   .build();
+}

@@ -9,14 +9,18 @@
 		type: "item",
 		items: [{
 			item: "enderio:block_simple_alloy_smelter"
-		}]
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "e52dd982",
 		type: "item",
 		items: [{
 			item: "enderio:block_simple_sag_mill"
-		}]
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "a9186195",

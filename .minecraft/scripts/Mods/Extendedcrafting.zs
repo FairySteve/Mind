@@ -1,6 +1,8 @@
 #priority 100
 import crafttweaker.item.IItemStack;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 //奇点删除
 val bannedqidian as IItemStack[] = [
 	<extendedcrafting:singularity:17>,<extendedcrafting:singularity:18>,<extendedcrafting:singularity:19>,<extendedcrafting:singularity:21>,<extendedcrafting:singularity:6>,<extendedcrafting:singularity:5>,<extendedcrafting:singularity:4>,<extendedcrafting:singularity:3>,<extendedcrafting:singularity:2>,<extendedcrafting:singularity>,<extendedcrafting:singularity:1>,<extendedcrafting:singularity:27>,<extendedcrafting:singularity:32>,<extendedcrafting:singularity:26>,<extendedcrafting:singularity:25>,<extendedcrafting:singularity:24>,<extendedcrafting:singularity:23>,<extendedcrafting:singularity:22>,<extendedcrafting:singularity:7>,<extendedcrafting:singularity:16>,
@@ -872,3 +874,4 @@ mods.extendedcrafting.TableCrafting.addShapeless(1, <extrautils2:angelring:3>, [
 mods.extendedcrafting.TableCrafting.addShapeless(1, <extrautils2:angelring:4>, [<extrautils2:angelring:3>]);
 mods.extendedcrafting.TableCrafting.addShapeless(1, <extrautils2:angelring:5>, [<extrautils2:angelring:4>]);
 mods.extendedcrafting.TableCrafting.addShapeless(1, <extrautils2:angelring>, [<extrautils2:angelring:5>]);
+}

@@ -1,6 +1,8 @@
 #priority 100
 import moretweaker.draconicevolution.FusionCrafting;//聚合核心
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShaped(<draconicevolution:draconic_core>,
 [[<tombstone:impregnated_diamond>, <draconicevolution:draconium_ingot>, <tombstone:impregnated_diamond>],
 [<draconicevolution:draconium_ingot>, <arcanearchives:shaped_quartz>, <draconicevolution:draconium_ingot>], 
@@ -91,3 +93,4 @@ FusionCrafting.BASIC, 1000000,
 FusionCrafting.add(<enderio:item_material:67>, <embers:dust_metallurgic>,
 FusionCrafting.BASIC, 1000000,
 [<actuallyadditions:item_dust:5>,<enderio:item_material:50>,<actuallyadditions:item_dust:4>,<enderio:item_material:48>]);
+}

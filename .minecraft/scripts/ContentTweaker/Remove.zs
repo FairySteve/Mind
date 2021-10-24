@@ -3,7 +3,9 @@ import scripts.grassUtils.RecipeUtils;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.removeByRecipeName("botania:fertilizer_dye");
 recipes.removeByRecipeName("botanicadds:mana_tesseract");
 recipes.removeByRecipeName("thaumcraft:ironplate");
@@ -106,3 +108,4 @@ RecipeUtils.removeAllRecipes([
 <embers:ore_lead>,<magneticraft:ores:1>,<immersiveengineering:ore:2>,<nuclearcraft:ore:2>,<embers:ore_silver>,<immersiveengineering:ore:3>,<embers:ore_nickel>,<immersiveengineering:ore:4>,<steamworld:ore:3>,<embers:ore_aluminum>,<immersiveengineering:ore:1>,<embers:ore_quartz>,<thaumcraft:ore_quartz>,<mekanism:oreblock:2>,<nuclearcraft:ore:1>,<forestry:resources:2>,
 <embers:ore_tin>,<immersiveengineering:ore:5>
 ]);
+}

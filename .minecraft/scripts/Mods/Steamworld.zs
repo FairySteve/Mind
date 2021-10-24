@@ -1,5 +1,7 @@
 #priority 100
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShaped(<steamworld:block_steaite_gold>,
 [[<steamworld:ingot>, <steamworld:ingot>, <steamworld:ingot>],
 [<steamworld:ingot>, <thermalexpansion:frame:147>, <steamworld:ingot>],
@@ -9,3 +11,4 @@ recipes.addShapeless(<steamworld:manual:3>, [<steamworld:manual:2>,<steamworld:i
 mods.steamworld.assembler.addRecipe(
 <nuclearcraft:part>, 50, 
 <thermalfoundation:material:131>*2,<nuclearcraft:dust:8>*2);
+}

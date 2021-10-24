@@ -1,6 +1,8 @@
 #priority 100
 import mods.mekatweaker.InfuserType;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShaped(<mekanism:basicblock:8>,
 [[<thermalfoundation:material:160>, <forestry:flexible_casing>, <thermalfoundation:material:160>],
 [<forestry:impregnated_casing>, <mekanism:ingot:1>, <forestry:sturdy_machine>],
@@ -37,3 +39,4 @@ mods.mekanism.combiner.removeRecipe(<ore:oreDraconium>);
 mods.mekanism.separator.addRecipe(<liquid:mind_fuild_zinc>, 50000, <gas:zinc>, <gas:water>);
 //加压反应室
 mods.mekanism.reaction.addRecipe(<mekanism:polyethene:3>, <liquid:aluminum> * 1000, <gas:zinc> * 1000, <mekanismgenerators:hohlraum>,<gas:water>, 10000, 2000);
+}

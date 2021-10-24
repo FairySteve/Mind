@@ -2,7 +2,9 @@
 import mods.naturesaura.TreeRitual;//森林仪式
 import mods.naturesaura.Altar;//自然祭坛
 import mods.naturesaura.Offering;//供桌
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShapeless(<naturesaura:gold_fiber>,[<minecraft:tallgrass:1>,<thaumcraft:nitor_yellow>]);
 
 TreeRitual.addRecipe("ghast_tear",<minecraft:sapling>,<minecraft:ghast_tear>,600,[<naturesaura:token_joy>,<naturesaura:token_fear>,<minecraft:fish>,<minecraft:fish:1>,<minecraft:fish:2>,<minecraft:fish:3>]);
@@ -45,3 +47,4 @@ Altar.addRecipe("mind_tugsten",<mind:tugsten_paint_ball>,<magneticraft:ingots:5>
 Altar.addRecipe("mind_lapis",<mind:lapis_paint_ball>,<minecraft:dye:4>*2,null,5,10);
 Altar.addRecipe("mind_osmium",<mind:osmium_paint_ball>,<mekanism:ingot:1>,null,5,10);
 
+}

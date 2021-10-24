@@ -3,7 +3,9 @@ import crafttweaker.item.IItemStack;
 import mods.bloodmagic.AlchemyArray;//奥术粉灰
 import mods.bloodmagic.BloodAltar;//祭坛
 import mods.bloodmagic.AlchemyTable;//炼金术桌
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 AlchemyArray.addRecipe(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}),<minecraft:netherrack>,<naturesaura:bottle_two_the_rebottling>);
 AlchemyArray.addRecipe(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}),<minecraft:end_stone>,<naturesaura:bottle_two_the_rebottling>);
 
@@ -23,4 +25,5 @@ val Carpenter as IItemStack[] = [
 ];
 for item in Carpenter {
     AlchemyTable.removeRecipe([item,<bloodmagic:cutting_fluid>]);
+}
 }

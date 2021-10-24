@@ -9,7 +9,9 @@ import mods.skyresources.combustion;//氧化
 import mods.skyresources.knife;//切割机
 import mods.skyresources.rockgrinder;//碎石杵
 import mods.skyresources.condenser;//冷凝器
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 crucible.removeRecipe (<liquid:srcrystalfluid>);
 crucible.removeRecipe (<liquid:lava>);
 
@@ -80,6 +82,4 @@ for item in condenser {
     mods.skyresources.condenser.removeRecipe(item);
 }
 
-
-
-
+}

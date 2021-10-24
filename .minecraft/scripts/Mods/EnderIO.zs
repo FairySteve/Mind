@@ -2,7 +2,9 @@
 import crafttweaker.item.IItemStack;
 import mods.enderio.AlloySmelter;//合金炉
 import mods.enderio.SagMill;//磨粉机
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShaped(<enderio:block_alloy_smelter>, 
 [[<enderio:item_alloy_ingot:6>, <actuallyadditions:block_furnace_double>, <enderio:item_alloy_ingot:6>],
 [<actuallyadditions:block_furnace_double>, <enderio:item_material:1>, <actuallyadditions:block_furnace_double>],
@@ -91,4 +93,5 @@ val BannedSAG as IItemStack[] = [
 ];
 for item in BannedSAG {
     SagMill.removeRecipe(item);
+}
 }

@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "actuallyadditions:block_empowerer"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "2079e39f",
@@ -17,7 +18,8 @@
 		items: [{
 			item: "actuallyadditions:block_display_stand"
 		}],
-		count: 4L
+		count: 4L,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "15569e1d",

@@ -1,5 +1,7 @@
 #priority 100
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShaped(<requious:plastic_processing>,
 [[<minecraft:stained_glass:8>, <minecraft:hopper>, <minecraft:stained_glass:8>],
 [<minecraft:stained_glass:8>, <extrautils2:machine:0>, <minecraft:stained_glass:8>],
@@ -47,3 +49,4 @@ recipes.addShaped(<theaurorian:moonstoneingot>,[
     [<ore:gemMoon>,<ore:ingotUnstable>,<ore:gemMoon>],
     [<ore:gemMoon>,<ore:gemMoon>,<ore:gemMoon>]
 ]);
+}

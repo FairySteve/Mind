@@ -2,7 +2,9 @@
 import mods.jei.JEI;
 import mods.randomtweaker.jei.IJeiPanel;
 import mods.randomtweaker.jei.IJeiUtils;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 var gaia_plate as IJeiPanel = JEI.createJei("gaia_plate", "GaiaPlate");
 gaia_plate.setModid("botania");
 gaia_plate.setIcon(<botanicadds:gaia_plate>);
@@ -23,7 +25,7 @@ JEI.createJeiRecipe("gaia_plate")
     .addInput(<botania:manaresource:8>)
     .addInput(<botania:manaresource:14>)
     .setOutputs([<botanicadds:gaiasteel_ingot>])
-    .setElements([IJeiUtils.createJEIManaBarElement(25,65,1000000)])
+    .setElements([IJeiUtils.createJeiManaBarElement(25,65,1000000,1000000)])
     .build();
 
 JEI.createJeiRecipe("gaia_plate")
@@ -31,5 +33,6 @@ JEI.createJeiRecipe("gaia_plate")
     .addInput(<botania:manaresource:2>)
     .addInput(<botania:manaresource>)
     .setOutputs([<botania:manaresource:4>])
-    .setElements([IJeiUtils.createJEIManaBarElement(25,65,301000)])
+    .setElements([IJeiUtils.createJeiManaBarElement(25,65,301000,1000000)])
     .build();
+}

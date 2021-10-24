@@ -9,7 +9,9 @@ import mods.ctutils.utils.Math;
 import crafttweaker.data.IData;
 import crafttweaker.recipes.IRecipeAction;
 import crafttweaker.recipes.IRecipeFunction;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 //remove OD
 recipes.remove(<ore:plankWood>);
 <ore:plateIron>.remove(<steamworld:generic_material:4>);
@@ -323,3 +325,4 @@ recipes.addShapeless(<mind:snow_bricks>*4,
 [<minecraft:snow>,<minecraft:snow>,<minecraft:snow>,<minecraft:snow>]);
 recipes.addShapeless(<mind:snowbrick>*4,
 [<mind:snow_bricks>,<mind:snow_bricks>,<mind:snow_bricks>,<mind:snow_bricks>]);
+}

@@ -1,6 +1,8 @@
 #priority 100
 import mods.appliedenergistics2.Inscriber;//压印器
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShaped(<appliedenergistics2:material:35>,
 [[<minecraft:dye:15>, <minecraft:dye:2>, <minecraft:dye:15>],
 [<minecraft:dye:1>, <minecraft:dye:12>, <minecraft:dye:4>],
@@ -79,3 +81,4 @@ Inscriber.addRecipe(<appliedenergistics2:material:22>, <appliedenergistics2:mate
 Inscriber.addRecipe(<appliedenergistics2:material:23>, <appliedenergistics2:material:16>, false, <appliedenergistics2:material:20>, <mind:chip>);
 Inscriber.addRecipe(<appliedenergistics2:material:24>, <appliedenergistics2:material:17>, false, <appliedenergistics2:material:20>, <mind:chip>);
 Inscriber.addRecipe(<avaritia:resource>, <minecraft:diamond_block>, false, <steamworld:generic_material:2>, <mekanism:compresseddiamond>);
+}

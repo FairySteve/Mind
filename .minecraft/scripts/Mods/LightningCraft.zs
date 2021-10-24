@@ -3,6 +3,9 @@ import moretweaker.lightningcraft.LightningInfusion;//LE融合器
 import moretweaker.lightningcraft.LightningTransforming;//落雷
 import moretweaker.lightningcraft.LightningCrusher;//磨粉机
 
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
+
+if(Loader){
 LightningCrusher.removeAll();
 
 recipes.addShaped(<lightningcraft:stone_block:0> * 4,
@@ -19,3 +22,4 @@ LightningInfusion.add(<appliedenergistics2:drive>, <appliedenergistics2:material
 LightningInfusion.add(<actuallyadditions:item_misc:5>*4,<appliedenergistics2:material:45> , 200, [<minecraft:quartz>,<minecraft:quartz>,<minecraft:quartz>,<minecraft:quartz>]);
 
 LightningTransforming.add(<mind:world_rune_four>, [<mind:world_rune_one>,<mind:world_rune_three>]);
+}

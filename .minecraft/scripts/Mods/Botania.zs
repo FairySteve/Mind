@@ -6,7 +6,9 @@ import mods.botania.RuneAltar;//符文祭坛
 import mods.botania.ManaInfusion;//魔力池
 import mods.botania.PureDaisy;//白雏菊
 import mods.botania.Orechid;//凝矿兰
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShaped(<botania:alchemycatalyst>, 
 [[<naturesaura:infused_stone>, <skyresources:alchemyitemcomponent:7>, <naturesaura:infused_stone>],
 [<minecraft:brewing_stand>, <botania:manaresource:1>, <minecraft:brewing_stand>],
@@ -80,5 +82,4 @@ Orechid.removeOre(<ore:oreGalena>);
 Orechid.removeOre(<ore:oreEmerald>);
 Orechid.removeOre(<ore:orePlatinum>);
 Orechid.removeOre(<ore:oreMithril>);
-
-
+}

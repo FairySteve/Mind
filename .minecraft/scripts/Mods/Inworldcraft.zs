@@ -4,7 +4,9 @@ import mods.inworldcrafting.FluidToItem;
 import mods.inworldcrafting.FluidToFluid;
 import mods.inworldcrafting.FireCrafting;
 import mods.inworldcrafting.ExplosionCrafting;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 //溶解试剂
 var dissipation = <liquid:mind_dissipation>;
 FluidToFluid.transform(dissipation,<liquid:water>,[<mind:zero_o>]);
@@ -39,3 +41,4 @@ FluidToItem.transform(<astralsorcery:blockmarble>*4,<liquid:tamoonwater>, [<thea
 FluidToItem.transform(<mind:astronomical_rune>,<liquid:astralsorcery.liquidstarlight>, [<mind:blank_rune>,<astralsorcery:blockcelestialgateway>,<astralsorcery:itemshiftingstar>],true);
 //方镁混合物
 FluidToFluid.transform(<liquid:mind_blend_caminite>,<liquid:petrotheum>,[<ore:dyeLightGray>*2,<minecraft:clay_ball>]);
+}

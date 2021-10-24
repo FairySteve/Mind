@@ -2,7 +2,9 @@
 import crafttweaker.item.IItemStack;
 import mods.integrateddynamics.Squeezer;
 import mods.integrateddynamics.MechanicalSqueezer;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShapeless(<integratedtunnels:part_importer_world_block_item>,
 [<integratedtunnels:part_importer_item_item>,<integrateddynamics:logic_director>,<minecraft:diamond_pickaxe>,<actuallyadditions:block_breaker>]);
 recipes.addShapeless(<integratedtunnels:part_exporter_world_block_item>,
@@ -31,4 +33,5 @@ val bannedsqueezer_2 as IItemStack[] = [
 for item in bannedsqueezer_2 {
     Squeezer.removeRecipesWithOutput(item, 1.0,item, 0.5);
     MechanicalSqueezer.removeRecipesWithOutput(item, 1.0,item, 0.5);
+}
 }

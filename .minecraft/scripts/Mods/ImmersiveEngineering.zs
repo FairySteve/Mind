@@ -6,7 +6,9 @@ import mods.immersiveengineering.MetalPress;//金属冲压机
 import mods.immersiveengineering.Blueprint;//蓝图
 import mods.immersiveengineering.Crusher;//粉碎机
 import mods.immersiveengineering.ArcFurnace;//电弧高炉
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShapeless(<thermalfoundation:material:103>*2,
 [<thermalfoundation:material:67>,<thermalfoundation:material:67>,<thermalfoundation:material:67>,<thermalfoundation:material:70>,
 <forge:bucketfilled>.withTag({FluidName: "ender", Amount: 1000})]);
@@ -166,4 +168,5 @@ val bannedCrusher as IItemStack[] = [
 ];
 for item in bannedCrusher {
     Crusher.removeRecipe(item);
+}
 }

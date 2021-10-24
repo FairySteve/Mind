@@ -1,7 +1,9 @@
 #priority 100
 import crafttweaker.item.IItemStack;
 import scripts.grassUtils.GrassUtils.i18n;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 val Buildderswands =[
 <betterbuilderswands:wandstone>,
 <betterbuilderswands:wandiron>,
@@ -29,3 +31,4 @@ mods.jei.JEI.addDescription(<bloodmagic:decorative_brick:2>,i18n("mind.bloodalta
 //mods.jei.JEI.addDescription(<botania:floatingspecialflower>.withTag({type: "entropinnyum"}),"热爆花不接受以任何方式复制的TNT");
 //mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "endoflame"}),"火红莲数量大于5朵时,对整体效率进行整体百分比削弱");
 //mods.jei.JEI.addDescription(<botania:floatingspecialflower>.withTag({type: "endoflame"}),"火红莲数量大于5朵时,对整体效率进行整体百分比削弱");
+}

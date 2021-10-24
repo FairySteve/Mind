@@ -1,7 +1,9 @@
 #priority 100
 import mods.astralsorcery.Altar;//祭坛
 import mods.astralsorcery.StarlightInfusion;//星能聚合器
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShaped(<astralsorcery:blockblackmarble>*8, 
 [[<ore:blockMarble>, <ore:blockMarble>, <ore:blockMarble>],
 [<ore:blockMarble>, <theaurorian:auroriancoal>, <ore:blockMarble>],
@@ -100,6 +102,4 @@ null,null,null,null,
 <theaurorian:strangemeat>,<minecraft:chicken>,<minecraft:chicken>,<theaurorian:strangemeat>,
 <mind:charred_snowball>,<mind:charred_snowball>,<mind:charred_snowball>,<mind:charred_snowball>,<mind:charred_snowball>],
 "astralsorcery.constellation.bootes");
-
-
-
+}

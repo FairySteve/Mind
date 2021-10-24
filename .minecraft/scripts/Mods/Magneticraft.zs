@@ -1,6 +1,8 @@
 #priority 100
 import crafttweaker.item.IItemStack;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShaped(<magneticraft:copper_coil>,
 [[null, <thermalfoundation:material:128>, null],
 [<thermalfoundation:material:128>, <thermalfoundation:material:32>, <thermalfoundation:material:128>],
@@ -61,4 +63,5 @@ val Grinder  as IItemStack[] = [
 ];
 for item in Grinder {
     mods.magneticraft.Grinder.removeRecipe(item);
+}
 }

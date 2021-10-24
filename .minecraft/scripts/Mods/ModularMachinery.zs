@@ -6,7 +6,9 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 //奇点压缩
 RecipeBuilder.newBuilder("singularity_compressor_0", "singularity_compressor",10000).
 addItemInput(<botania:storage:3>*1024).
@@ -888,3 +890,4 @@ recipes.addShaped(<modularmachinery:blockcasing:4>*4,
 [[<enderio:block_reinforced_obsidian>, <modularmachinery:blockcasing>, <enderio:block_reinforced_obsidian>],
 [<modularmachinery:blockcasing>, null, <modularmachinery:blockcasing>],
 [<enderio:block_reinforced_obsidian>, <modularmachinery:blockcasing>, <enderio:block_reinforced_obsidian>]]);
+}

@@ -7,7 +7,9 @@ import mods.thermalexpansion.Factorizer;//公式处理机
 import mods.thermalexpansion.Pulverizer;//磨粉机
 import mods.thermalexpansion.Sawmill;//锯木机
 import mods.thermalexpansion.Crucible;//熔岩炉
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShaped(<thermalexpansion:frame>, 
 [[<mind:material>, <thermalfoundation:material:160>, <mind:material>],
 [<thermalfoundation:material:160>, <extrautils2:opinium:1>, <thermalfoundation:material:160>], 
@@ -108,3 +110,4 @@ Sawmill.addRecipe(<lightningcraft:wood_plank>*4, <lightningcraft:wood_log>, 1500
 
 Crucible.addRecipe(<liquid:mana>*250, <thermalfoundation:material:1028>, 10000);
 Crucible.addRecipe(<liquid:mind_sky>*250, <naturesaura:sky_ingot>, 10000);
+}

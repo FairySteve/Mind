@@ -1,6 +1,8 @@
 #priority 1000
 import crafttweaker.item.IItemStack;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
 
+if(Loader){
 recipes.addShapeless(<minecraft:crafting_table>, 
 [<immersiveengineering:treated_wood>,<immersiveengineering:treated_wood>,<immersiveengineering:treated_wood>,<immersiveengineering:treated_wood>]);
 var logs as IItemStack[] = [
@@ -68,3 +70,4 @@ recipes.addShapeless(<minecraft:dye:4>*9,
 [<minecraft:lapis_block>]);
 recipes.addShapeless(<minecraft:glowstone_dust>*4,
 [<minecraft:glowstone>]);
+}

@@ -4,6 +4,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.recipes.IRecipeAction;
 import crafttweaker.recipes.IRecipeFunction;
+import scripts.baseUtils.TheStarNight.modLoader as Loader;
+
+if(Loader){
 //ore
 val cry as IItemStack[] =[
     <environmentaltech:litherite>,<environmentaltech:erodium>,<environmentaltech:kyronite>,<environmentaltech:pladium>,<environmentaltech:ionite>,<environmentaltech:aethium>
@@ -159,3 +162,4 @@ recipes.addShaped("solar_6",<environmentaltech:solar_cont_6>,[
         player.update(iData1);
     }
 } as IRecipeAction);
+}
